@@ -1,0 +1,208 @@
+/**
+ * SEO Fixer — block editor sidebar. Uses WordPress's own admin colours so it
+ * matches the editor in every colour scheme.
+ */
+.seofx-sb {
+	--seofx-sb-good: #00813f;
+	--seofx-sb-good-soft: #e6f4ec;
+	--seofx-sb-warn: #8a5a00;
+	--seofx-sb-warn-soft: #fcf3e0;
+	--seofx-sb-bad: #c62828;
+	--seofx-sb-bad-soft: #fdecec;
+	--seofx-sb-info: var(--wp-admin-theme-color, #3858e9);
+	--seofx-sb-muted: #646970;
+}
+
+.seofx-sb__muted {
+	display: block;
+	color: var(--seofx-sb-muted);
+	font-size: 12px;
+}
+
+.seofx-sb__muted .components-spinner {
+	margin: 0 6px 0 0;
+	width: 12px;
+	height: 12px;
+}
+
+/* Score */
+.seofx-sb__score {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.seofx-sb__ring {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex: none;
+	width: 52px;
+	height: 52px;
+	border: 4px solid currentColor;
+	border-radius: 50%;
+	font-size: 18px;
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+}
+
+.seofx-sb__ring.is-good,
+.seofx-sb__pill.is-good,
+.seofx-sb__count.is-good { color: var(--seofx-sb-good); }
+.seofx-sb__ring.is-warn,
+.seofx-sb__pill.is-warn,
+.seofx-sb__count.is-warn { color: var(--seofx-sb-warn); }
+.seofx-sb__ring.is-bad,
+.seofx-sb__pill.is-bad,
+.seofx-sb__count.is-bad { color: var(--seofx-sb-bad); }
+
+.seofx-sb__pill {
+	display: inline-block;
+	min-width: 28px;
+	margin-inline-end: 6px;
+	padding: 1px 6px;
+	border-radius: 999px;
+	background: #f0f0f1;
+	font-weight: 700;
+	text-align: center;
+}
+
+.seofx-sb__pill.is-good { background: var(--seofx-sb-good-soft); }
+.seofx-sb__pill.is-warn { background: var(--seofx-sb-warn-soft); }
+.seofx-sb__pill.is-bad { background: var(--seofx-sb-bad-soft); }
+
+/* Checklist */
+.seofx-sb__problems,
+.seofx-sb__passed {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.seofx-sb__problem {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin: 0 0 12px;
+	padding: 0 0 12px 10px;
+	border-inline-start: 3px solid #dcdcde;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.seofx-sb__problem:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+.seofx-sb__problem.is-bad { border-inline-start-color: var(--seofx-sb-bad); }
+.seofx-sb__problem.is-warn { border-inline-start-color: var(--seofx-sb-warn); }
+.seofx-sb__problem.is-info { border-inline-start-color: var(--seofx-sb-info); }
+
+.seofx-sb__problem > span {
+	color: #3c434a;
+}
+
+.seofx-sb__items {
+	display: block;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+	font-size: 11px;
+}
+
+.seofx-sb__fix {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 6px;
+	margin-top: 4px;
+}
+
+.seofx-sb__suggestion {
+	margin: 0;
+	padding: 6px 8px;
+	border-radius: 2px;
+	background: #f6f7f7;
+	font-style: italic;
+}
+
+.seofx-sb__why summary {
+	cursor: pointer;
+	color: var(--seofx-sb-info);
+	font-size: 12px;
+}
+
+.seofx-sb__why p {
+	margin: 4px 0 0;
+	color: var(--seofx-sb-muted);
+	font-size: 12px;
+}
+
+.seofx-sb__passed li {
+	margin: 0 0 6px;
+	padding-inline-start: 20px;
+	position: relative;
+}
+
+.seofx-sb__passed li::before {
+	content: "✓";
+	position: absolute;
+	inset-inline-start: 0;
+	color: var(--seofx-sb-good);
+	font-weight: 700;
+}
+
+/* Google preview */
+.seofx-sb__serp {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	margin-bottom: 16px;
+	padding: 10px 12px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #fff;
+	font-family: Arial, sans-serif;
+}
+
+.seofx-sb__serp.is-hidden {
+	opacity: 0.6;
+}
+
+.seofx-sb__serp-url {
+	overflow: hidden;
+	color: #202124;
+	font-size: 12px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.seofx-sb__serp-title {
+	color: #1a0dab;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.seofx-sb__serp-desc {
+	color: #4d5156;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.seofx-sb__count {
+	font-weight: 600;
+}
+
+.seofx-sb__footer {
+	padding: 0 16px 16px;
+}
+
+/* Post summary row */
+.seofx-sb__status {
+	justify-content: space-between;
+}
+
+.seofx-sb__status-button.components-button {
+	height: auto;
+	padding: 0;
+	text-decoration: none;
+}

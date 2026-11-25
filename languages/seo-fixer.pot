@@ -1,0 +1,5360 @@
+# Copyright (C) 2026 Amit Jyoti Shaw
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Fixer – Automatic SEO Audit & One-Click Fix 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/seo-fixer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-28T10:23:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: seo-fixer\n"
+
+#. Plugin Name of the plugin
+#: seo-fixer.php
+msgid "SEO Fixer – Automatic SEO Audit & One-Click Fix"
+msgstr ""
+
+#. Description of the plugin
+#: seo-fixer.php
+msgid "Simple, guided SEO for everyone: a clear health score, plain-English issues and one-click fixes. Light, fast and private."
+msgstr ""
+
+#. Author of the plugin
+#: seo-fixer.php
+msgid "Amit Jyoti Shaw"
+msgstr ""
+
+#. Author URI of the plugin
+#: seo-fixer.php
+msgid "https://github.com/Amitoshi"
+msgstr ""
+
+#: includes/admin/class-admin.php:113
+#: includes/admin/class-admin.php:114
+#: includes/admin/class-meta-box.php:66
+#: includes/admin/class-term-fields.php:80
+#: includes/admin/class-ui.php:181
+#: assets/editor/sidebar.js:349
+#: assets/editor/sidebar.js:464
+msgid "SEO Fixer"
+msgstr ""
+
+#: includes/admin/class-admin.php:123
+#: includes/admin/class-dashboard-page.php:138
+#: includes/admin/class-ui.php:171
+msgid "SEO Health"
+msgstr ""
+
+#: includes/admin/class-admin.php:124
+#: includes/admin/class-import-panel.php:76
+#: includes/admin/class-import-panel.php:91
+#: includes/admin/class-redirects-page.php:101
+#: includes/admin/class-settings-registry.php:162
+#: includes/admin/class-ui.php:172
+msgid "Redirects"
+msgstr ""
+
+#: includes/admin/class-admin.php:125
+#: includes/admin/class-admin.php:207
+#: includes/admin/class-settings-page.php:66
+#: includes/admin/class-ui.php:173
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-admin.php:126
+#: includes/admin/class-tools-page.php:76
+#: includes/admin/class-ui.php:174
+msgid "Tools"
+msgstr ""
+
+#: includes/admin/class-admin.php:127
+msgid "Setup"
+msgstr ""
+
+#: includes/admin/class-admin.php:130
+#: includes/admin/class-styleguide-page.php:42
+msgid "Design system"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:32
+#: includes/admin/class-styleguide-page.php:60
+#: includes/admin/class-styleguide-page.php:79
+msgid "Critical"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:36
+#: includes/admin/class-dashboard-page.php:391
+msgid "Important"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:40
+msgid "Minor"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:44
+msgid "Tip"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:138
+msgid "See how search-ready your site is, and fix problems in one click."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:172
+#: includes/editor/class-live-check.php:301
+#: assets/editor/sidebar.js:93
+msgid "Healthy"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:173
+#: includes/editor/class-live-check.php:302
+#: assets/editor/sidebar.js:94
+msgid "Needs work"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:174
+#: includes/editor/class-live-check.php:303
+#: assets/editor/sidebar.js:95
+msgid "Needs attention"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:175
+msgid "Not scanned yet"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:182
+msgid "Your SEO health score"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:186
+msgid "SEO Fixer will check every page for missing titles and descriptions, images without alt text, broken links and more. It only reads your site — nothing is changed."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:188
+msgid "Something important is stopping Google from showing your site. Fix the critical items below first — your score can’t go above 45 until you do."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:190
+msgid "Your site is in good shape. Work through the remaining items to get even closer to 100."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:192
+msgid "Your site is on its way. Fixing the items below will raise your score and help more people find you."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:199
+msgid "Start the 2-minute setup"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:209
+msgid "Scan again"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:209
+msgid "Scan my site"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:214
+msgid "Scan progress"
+msgstr ""
+
+#. translators: 1: time since the last scan, e.g. "5 minutes", 2: number of pages.
+#: includes/admin/class-dashboard-page.php:224
+#, php-format
+msgid "Last full scan %1$s ago · %2$s page checked · updates by itself when you edit pages"
+msgid_plural "Last full scan %1$s ago · %2$s pages checked · updates by itself when you edit pages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-dashboard-page.php:269
+msgid "Overview"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/admin/class-dashboard-page.php:271
+#, php-format
+msgid "Pages (%s)"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:272
+msgid "Changes"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:273
+#: includes/admin/class-health-report.php:238
+msgid "Printable report"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:281
+msgid "SEO Health sections"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:300
+msgid "How your score adds up"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:301
+msgid "Site settings count for 40%, your pages for 60%."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:307
+#: includes/admin/class-import-panel.php:202
+msgid "Site settings"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:313
+msgid "Everything set up correctly."
+msgstr ""
+
+#. translators: %d: number of settings to fix.
+#: includes/admin/class-dashboard-page.php:315
+#, php-format
+msgid "%d thing to fix."
+msgid_plural "%d things to fix."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-dashboard-page.php:324
+msgid "Your pages"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:329
+msgid "No published pages yet."
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/admin/class-dashboard-page.php:331
+#, php-format
+msgid "Average of %s page."
+msgid_plural "Average of %s pages."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-dashboard-page.php:360
+msgid "Quick checks"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:363
+msgid "All good"
+msgstr ""
+
+#. translators: %d: number of items that need attention.
+#: includes/admin/class-dashboard-page.php:366
+#, php-format
+msgid "%d needs attention"
+msgid_plural "%d need attention"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-dashboard-page.php:387
+msgid "Fix these first"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:388
+msgid "These stop Google from showing your site."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:392
+msgid "These hold back how your pages appear in Google."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:395
+msgid "Worth fixing"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:396
+msgid "Smaller improvements that add up."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:399
+msgid "Tips"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:400
+msgid "Optional ideas. They don’t lower your score."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:408
+msgid "What we found"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:411
+msgid "No problems found. Great work!"
+msgstr ""
+
+#. translators: %s: list of check names in quotes, e.g. “One title per page” and “One main heading per page”.
+#: includes/admin/class-dashboard-page.php:419
+#, php-format
+msgid "These checks couldn’t run: %s. Your site didn’t answer when SEO Fixer tried to load your homepage, so they aren’t counted. Scan again later."
+msgstr ""
+
+#. translators: %s: name of a check.
+#: includes/admin/class-dashboard-page.php:425
+#, php-format
+msgid "“%s”"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:466
+msgid "Fix"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/admin/class-dashboard-page.php:472
+#, php-format
+msgid "See %s page"
+msgid_plural "See %s pages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-dashboard-page.php:477
+msgid "I’ve done this"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:490
+msgid "Passed checks"
+msgstr ""
+
+#. translators: %d: number of passed checks.
+#: includes/admin/class-dashboard-page.php:497
+#, php-format
+msgid "%d site check passed"
+msgid_plural "%d site checks passed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-dashboard-page.php:529
+msgid "Getting started"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:530
+msgid "Three short steps to a search-ready site."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:537
+msgid "Run the 2-minute setup"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:539
+#: includes/admin/class-dashboard-page.php:552
+#: includes/admin/class-wizard-page.php:201
+msgid "(completed)"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:542
+msgid "Tell SEO Fixer about your site, brand, social profiles and location."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:544
+msgid "Run again"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:544
+#: includes/admin/class-setup-notice.php:74
+#: includes/admin/class-tools-page.php:86
+msgid "Start setup"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:550
+msgid "Scan your site"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:555
+msgid "Get your SEO health score and a plain-English list of issues."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:559
+#: includes/admin/class-import-panel.php:550
+#: includes/admin/class-wizard-page.php:99
+msgid "Done"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:566
+msgid "Fix issues in one click"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:567
+msgid "Fill in missing descriptions, shorten long titles and add image text — then undo anything you don’t like."
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:570
+msgid "See changes"
+msgstr ""
+
+#: includes/admin/class-dashboard-page.php:572
+msgid "After the scan"
+msgstr ""
+
+#: includes/admin/class-fields.php:56
+#: includes/admin/class-redirects-page.php:188
+#: includes/admin/class-schema-fields.php:134
+#: includes/admin/class-settings-registry.php:206
+#: includes/admin/class-styleguide-page.php:81
+#: includes/admin/class-tools-page.php:57
+#: includes/admin/class-ui.php:194
+#: includes/admin/class-visibility-fields.php:79
+#: includes/admin/class-visibility-fields.php:92
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/class-fields.php:238
+msgid "This image is smaller than 112 × 112 pixels, so Google may not use it. Try a larger version."
+msgstr ""
+
+#: includes/admin/class-fields.php:253
+#: assets/admin/js/admin.js:174
+msgid "Change image"
+msgstr ""
+
+#: includes/admin/class-fields.php:253
+#: assets/admin/js/admin.js:188
+msgid "Choose image"
+msgstr ""
+
+#: includes/admin/class-fields.php:254
+#: includes/admin/class-redirects-page.php:400
+msgid "Remove"
+msgstr ""
+
+#. translators: %s: weekday name.
+#: includes/admin/class-fields.php:296
+#, php-format
+msgid "%s opens at"
+msgstr ""
+
+#. translators: %s: weekday name.
+#: includes/admin/class-fields.php:298
+#, php-format
+msgid "%s closes at"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:72
+msgid "SEO Fixer writes a description from each page’s first meaningful sentences. When a page says too little, it adds the page title and your tagline. Descriptions you wrote yourself are never changed."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:73
+msgid "When a title is too long because the site name is added to it, the page gets its own title without the site name (it follows the page title if you rename the page). Titles you wrote yourself are never changed. Titles that are too long on their own need a shorter wording from you."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:74
+msgid "Each image gets alt text from its Media Library details, its file name, the heading above it or the page title, and the Media Library keeps a copy for next time. Images that already have alt text are never changed."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:89
+msgid "This problem can’t be fixed automatically. Open the page list to see which pages need a look."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:89
+msgid "Show pages"
+msgstr ""
+
+#. translators: %s: name of the problem, e.g. "No description".
+#: includes/admin/class-fix-page.php:104
+#, php-format
+msgid "Fix: %s"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:108
+msgid "Show the pages"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:114
+msgid "Check the suggestions below and change any you like before applying them. Everything can be undone under Changes."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:122
+msgid "Apply the suggestions to every page with this problem? You can undo it afterwards."
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/admin/class-fix-page.php:126
+#, php-format
+msgid "Fix %s page"
+msgid_plural "Fix all %s pages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-fix-page.php:131
+msgid "Fix progress"
+msgstr ""
+
+#. translators: %s: number of changes.
+#: includes/admin/class-fix-page.php:167
+#, php-format
+msgid "Done: %s change made. The score has been updated."
+msgid_plural "Done: %s changes made. The score has been updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-fix-page.php:169
+msgid "Nothing was changed: the selected pages already had their own text, or no suggestion was available."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:173
+msgid "More pages are waiting — click “Fix all” again to continue."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:183
+#: includes/admin/class-fix-page.php:432
+#: includes/admin/class-styleguide-page.php:71
+msgid "Undo"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:200
+msgid "Write descriptions automatically for new and updated pages that have none (or a very short one)"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:201
+msgid "Leave the site name off titles that would be too long, for new and updated pages"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:202
+msgid "Add alt text automatically to images in new and updated pages"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:212
+msgid "Automatic fixing is on"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:212
+msgid "Automatic fixing is off"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:215
+#: includes/admin/class-redirects-page.php:293
+msgid "Turn off"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:215
+#: includes/admin/class-redirects-page.php:293
+msgid "Turn on"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:237
+msgid "Suggestions"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:238
+msgid "Untick anything you don’t want, edit the text if you like, then apply."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:248
+#: includes/admin/class-redirects-page.php:249
+#: includes/admin/class-redirects-page.php:376
+msgid "Select all"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:249
+#: includes/admin/class-health-report.php:251
+#: includes/admin/class-health-report.php:653
+#: includes/admin/class-import-panel.php:443
+#: includes/admin/class-styleguide-page.php:117
+msgid "Page"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:250
+msgid "Image"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:250
+msgid "Now"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:251
+msgid "Suggestion"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:262
+#: includes/admin/class-health-report.php:406
+#: includes/admin/class-health-report.php:662
+#: includes/admin/class-import-panel.php:468
+msgid "(no title)"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:269
+msgid "Nothing to fix here any more."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:269
+msgid "You wrote this one yourself, so SEO Fixer leaves it alone."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:279
+msgid "Apply this suggestion"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:300
+#: includes/admin/class-health-report.php:449
+#: includes/admin/class-health-report.php:483
+#: includes/admin/class-tools-page.php:56
+msgid "None"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:306
+msgid "Suggested text"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:310
+msgid "Write a shorter title"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:310
+msgid "Describe the image"
+msgstr ""
+
+#. translators: %s: the title as it will look in Google.
+#: includes/admin/class-fix-page.php:316
+#, php-format
+msgid "Shows as: %s"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:320
+msgid "The page title alone is too long, so this one needs your words."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:333
+msgid "Apply selected"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:335
+msgid "Pages of suggestions"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:337
+#: includes/admin/class-fix-page.php:446
+#: includes/admin/class-health-report.php:529
+#: includes/admin/class-redirects-page.php:462
+msgid "Previous"
+msgstr ""
+
+#. translators: 1: current page, 2: number of pages.
+#: includes/admin/class-fix-page.php:342
+#: includes/admin/class-health-report.php:534
+#: includes/admin/class-redirects-page.php:467
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:346
+#: includes/admin/class-fix-page.php:449
+#: includes/admin/class-health-report.php:538
+#: includes/admin/class-redirects-page.php:471
+msgid "Next"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:368
+msgid "Changes made by SEO Fixer"
+msgstr ""
+
+#. translators: %d: number of days.
+#: includes/admin/class-fix-page.php:372
+#, php-format
+msgid "Every fix and import is listed here for %d days, so you can undo it. Undo never touches text that was edited again afterwards."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:377
+msgid "No changes yet. Fixes you apply will appear here."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:383
+#: includes/admin/class-services-panels.php:296
+msgid "When"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:384
+msgid "What changed"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:385
+msgid "By"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:386
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:387
+#: includes/admin/class-import-panel.php:147
+#: includes/admin/class-redirects-page.php:255
+#: includes/admin/class-redirects-page.php:381
+msgid "Actions"
+msgstr ""
+
+#. translators: %s: time span, e.g. "3 hours".
+#: includes/admin/class-fix-page.php:402
+#: includes/admin/class-redirects-page.php:429
+#: includes/admin/class-services-panels.php:313
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:409
+#: includes/admin/class-settings-registry.php:87
+msgid "Automatic"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:411
+msgid "Unknown"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:418
+msgid "Applied"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:420
+msgid "Undone"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:422
+msgid "Partly undone"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:432
+msgid "Undo these changes?"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:444
+msgid "Pages of changes"
+msgstr ""
+
+#. translators: %s: number of descriptions.
+#: includes/admin/class-fix-page.php:472
+#, php-format
+msgid "%s description written"
+msgid_plural "%s descriptions written"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of titles.
+#: includes/admin/class-fix-page.php:476
+#, php-format
+msgid "%s title shortened"
+msgid_plural "%s titles shortened"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of images.
+#: includes/admin/class-fix-page.php:480
+#, php-format
+msgid "%s image given alt text"
+msgid_plural "%s images given alt text"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: list of changes, 2: number of pages.
+#: includes/admin/class-fix-page.php:485
+#, php-format
+msgid "%1$s (on %2$s page)"
+msgid_plural "%1$s (on %2$s pages)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of values, 2: number of pages.
+#: includes/admin/class-fix-page.php:504
+#, php-format
+msgid "%1$s value on %2$s page"
+msgid_plural "%1$s values on %2$s pages"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of categories and tags.
+#: includes/admin/class-fix-page.php:511
+#: includes/admin/class-import-panel.php:194
+#: includes/admin/class-import-panel.php:503
+#, php-format
+msgid "%s category or tag"
+msgid_plural "%s categories and tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of settings.
+#: includes/admin/class-fix-page.php:515
+#: includes/admin/class-import-panel.php:508
+#, php-format
+msgid "%s site setting"
+msgid_plural "%s site settings"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of redirects.
+#: includes/admin/class-fix-page.php:519
+#: includes/admin/class-import-panel.php:199
+#: includes/admin/class-import-panel.php:513
+#, php-format
+msgid "%s redirect"
+msgid_plural "%s redirects"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name, e.g. "Yoast SEO", 2: list of what was imported.
+#: includes/admin/class-fix-page.php:523
+#, php-format
+msgid "Imported from %1$s: %2$s"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:524
+msgid "another SEO plugin"
+msgstr ""
+
+#: includes/admin/class-fix-page.php:626
+#: includes/admin/class-import-panel.php:617
+#: includes/scanner/class-scanner.php:105
+msgid "Your session expired. Reload the page and try again."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:629
+#: includes/admin/class-import-panel.php:620
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:635
+msgid "This problem can’t be fixed automatically."
+msgstr ""
+
+#. translators: %s: number of changes undone so far.
+#: includes/admin/class-fix-page.php:663
+#, php-format
+msgid "Undone so far: %s changes. This is a big one — click Undo again to finish."
+msgstr ""
+
+#. translators: %s: number of changes undone.
+#: includes/admin/class-fix-page.php:667
+#: includes/admin/class-fix-page.php:675
+#, php-format
+msgid "Undone: %s change."
+msgid_plural "Undone: %s changes."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of changes left because they were edited again.
+#: includes/admin/class-fix-page.php:670
+#, php-format
+msgid "%s was left as it is because it was edited again afterwards."
+msgid_plural "%s were left as they are because they were edited again afterwards."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-fix-page.php:695
+msgid "Automatic fixing is on. New and updated pages will be fixed as they are saved."
+msgstr ""
+
+#: includes/admin/class-fix-page.php:695
+msgid "Automatic fixing is off."
+msgstr ""
+
+#: includes/admin/class-health-report.php:97
+#: includes/admin/class-health-report.php:641
+msgid "Pages with problems"
+msgstr ""
+
+#: includes/admin/class-health-report.php:98
+msgid "Needs attention (under 50)"
+msgstr ""
+
+#: includes/admin/class-health-report.php:99
+msgid "Needs work (50–79)"
+msgstr ""
+
+#: includes/admin/class-health-report.php:100
+msgid "Healthy (80 and over)"
+msgstr ""
+
+#. translators: 1: image address, 2: size in KB.
+#: includes/admin/class-health-report.php:174
+#: includes/editor/class-live-check.php:258
+#, php-format
+msgid "%1$s (%2$s KB)"
+msgstr ""
+
+#: includes/admin/class-health-report.php:228
+msgid "Page by page"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/admin/class-health-report.php:232
+#, php-format
+msgid "%s page matches."
+msgid_plural "%s pages match."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-health-report.php:237
+msgid "Download CSV"
+msgstr ""
+
+#: includes/admin/class-health-report.php:245
+msgid "No pages match these filters."
+msgstr ""
+
+#: includes/admin/class-health-report.php:252
+#: includes/admin/class-health-report.php:331
+#: includes/admin/class-health-report.php:654
+#: includes/admin/class-health-report.php:708
+#: includes/admin/class-styleguide-page.php:117
+msgid "Score"
+msgstr ""
+
+#: includes/admin/class-health-report.php:253
+#: includes/admin/class-health-report.php:655
+#: includes/admin/class-health-report.php:709
+msgid "Problems"
+msgstr ""
+
+#: includes/admin/class-health-report.php:254
+#: includes/admin/class-health-report.php:340
+#: includes/admin/class-health-report.php:707
+#: includes/admin/class-redirects-page.php:170
+#: includes/admin/class-redirects-page.php:252
+msgid "Type"
+msgstr ""
+
+#: includes/admin/class-health-report.php:291
+msgid "Fix automatically"
+msgstr ""
+
+#: includes/admin/class-health-report.php:293
+msgid "Show all pages"
+msgstr ""
+
+#: includes/admin/class-health-report.php:300
+#: includes/admin/class-ui.php:416
+#: assets/editor/sidebar.js:306
+msgid "Why it matters"
+msgstr ""
+
+#: includes/admin/class-health-report.php:302
+msgid "How to fix it"
+msgstr ""
+
+#: includes/admin/class-health-report.php:318
+msgid "Filter pages"
+msgstr ""
+
+#: includes/admin/class-health-report.php:322
+msgid "Problem"
+msgstr ""
+
+#: includes/admin/class-health-report.php:324
+msgid "Any problem"
+msgstr ""
+
+#: includes/admin/class-health-report.php:333
+msgid "Any score"
+msgstr ""
+
+#: includes/admin/class-health-report.php:342
+msgid "All types"
+msgstr ""
+
+#: includes/admin/class-health-report.php:349
+msgid "Title contains"
+msgstr ""
+
+#: includes/admin/class-health-report.php:357
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/class-health-report.php:359
+msgid "Clear filters"
+msgstr ""
+
+#: includes/admin/class-health-report.php:418
+#: includes/admin/class-indexing-panels.php:48
+#: includes/admin/class-indexing-panels.php:103
+#: includes/admin/class-indexing-panels.php:133
+#: includes/admin/class-indexing-panels.php:165
+#: includes/admin/class-schema-panels.php:87
+#: includes/admin/class-services-panels.php:91
+#: includes/admin/class-services-panels.php:191
+#: includes/admin/class-services-panels.php:257
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: includes/admin/class-health-report.php:420
+#: includes/admin/class-health-report.php:710
+msgid "Details"
+msgstr ""
+
+#: includes/admin/class-health-report.php:422
+#: includes/admin/class-health-report.php:711
+msgid "Title in Google"
+msgstr ""
+
+#: includes/admin/class-health-report.php:432
+#: includes/admin/class-health-report.php:712
+#: includes/admin/class-styleguide-page.php:106
+#: includes/admin/class-ui.php:378
+msgid "Description"
+msgstr ""
+
+#. translators: 1: number of characters, 2: "written by you" or "automatic".
+#: includes/admin/class-health-report.php:441
+#, php-format
+msgid "(%1$s characters, %2$s)"
+msgstr ""
+
+#: includes/admin/class-health-report.php:443
+msgid "automatic"
+msgstr ""
+
+#: includes/admin/class-health-report.php:443
+msgid "written by you"
+msgstr ""
+
+#: includes/admin/class-health-report.php:452
+#: includes/admin/class-health-report.php:713
+msgid "Words"
+msgstr ""
+
+#: includes/admin/class-health-report.php:454
+msgid "Internal links"
+msgstr ""
+
+#. translators: %s: number of further items.
+#: includes/admin/class-health-report.php:470
+#, php-format
+msgid "and %s more"
+msgstr ""
+
+#. translators: %d: score from 0 to 100.
+#: includes/admin/class-health-report.php:509
+#, php-format
+msgid "Score %d out of 100"
+msgstr ""
+
+#: includes/admin/class-health-report.php:527
+msgid "Pages of results"
+msgstr ""
+
+#: includes/admin/class-health-report.php:567
+msgid "← Back to SEO Health"
+msgstr ""
+
+#: includes/admin/class-health-report.php:568
+msgid "Print or save as PDF"
+msgstr ""
+
+#: includes/admin/class-health-report.php:574
+msgid "SEO health report"
+msgstr ""
+
+#. translators: %s: date and time of the scan.
+#: includes/admin/class-health-report.php:579
+#, php-format
+msgid "Scanned %s"
+msgstr ""
+
+#: includes/admin/class-health-report.php:588
+msgid "Overall score"
+msgstr ""
+
+#: includes/admin/class-health-report.php:592
+msgid "Site settings (40%)"
+msgstr ""
+
+#: includes/admin/class-health-report.php:596
+msgid "Pages (60%)"
+msgstr ""
+
+#: includes/admin/class-health-report.php:600
+msgid "No pages yet"
+msgstr ""
+
+#. translators: 1: score, 2: number of pages.
+#: includes/admin/class-health-report.php:603
+#, php-format
+msgid "%1$s / 100 (average of %2$s pages)"
+msgstr ""
+
+#: includes/admin/class-health-report.php:610
+msgid "What to fix"
+msgstr ""
+
+#: includes/admin/class-health-report.php:612
+msgid "No problems found."
+msgstr ""
+
+#: includes/admin/class-health-report.php:622
+msgid "Why it matters:"
+msgstr ""
+
+#: includes/admin/class-health-report.php:623
+msgid "How to fix it:"
+msgstr ""
+
+#: includes/admin/class-health-report.php:632
+msgid "Already in good shape"
+msgstr ""
+
+#. translators: 1: pages listed, 2: all pages with problems.
+#: includes/admin/class-health-report.php:646
+#, php-format
+msgid "The %1$s pages with the lowest scores, out of %2$s. Download the CSV from the Pages view for the full list."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/admin/class-health-report.php:676
+#, php-format
+msgid "Made with %s."
+msgstr ""
+
+#: includes/admin/class-health-report.php:705
+#: includes/admin/class-redirects-page.php:377
+#: includes/indexing/class-sitemap-xml.php:375
+msgid "Address"
+msgstr ""
+
+#: includes/admin/class-health-report.php:706
+#: includes/admin/class-styleguide-page.php:99
+#: includes/admin/class-ui.php:377
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:61
+msgid "SEO titles"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:62
+msgid "Meta descriptions"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:63
+msgid "Pages hidden from (or shown in) search results"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:64
+msgid "“Don’t follow links” settings"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:65
+msgid "Canonical addresses"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:66
+msgid "Social sharing titles"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:67
+msgid "Social sharing descriptions"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:68
+msgid "Social sharing images"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:69
+#: includes/admin/class-settings-registry.php:274
+msgid "Homepage title"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:70
+#: includes/admin/class-settings-registry.php:286
+#: includes/scanner/class-checks.php:393
+msgid "Homepage description"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:71
+#: includes/admin/class-settings-registry.php:300
+msgid "Title separator"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:72
+msgid "Google Search Console code"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:73
+msgid "Bing Webmaster Tools code"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:74
+msgid "Yandex Webmaster code"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:75
+msgid "Pinterest code"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:87
+msgid "Titles and descriptions"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:88
+msgid "Search visibility: hidden pages, “don’t follow links” and canonical addresses"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:89
+msgid "Social sharing titles, descriptions and images"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:90
+msgid "Site settings: homepage title and description, title separator, verification codes"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:105
+msgid "Move from another SEO plugin"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:106
+msgid "Bring your titles, descriptions and settings over from Yoast SEO, Rank Math, All in One SEO, SEOPress or The SEO Framework. You see what will happen before anything changes, nothing you already set in SEO Fixer is replaced, and the import can be undone."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:137
+msgid "No data from another SEO plugin was found on this site, so there is nothing to bring over."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:145
+msgid "Plugin"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:146
+msgid "What it has"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:155
+msgid "Active"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:155
+msgid "Not active"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:164
+msgid "Check what will be imported"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:174
+msgid "Checking only reads. The other plugin can stay active while you check and import; its own data is never changed."
+msgstr ""
+
+#. translators: %s: number of pages and posts.
+#: includes/admin/class-import-panel.php:189
+#: includes/admin/class-import-panel.php:499
+#, php-format
+msgid "%s page or post"
+msgid_plural "%s pages and posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-import-panel.php:202
+msgid "site settings"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:230
+msgid "What to import"
+msgstr ""
+
+#. translators: %s: number of values.
+#: includes/admin/class-import-panel.php:239
+#, php-format
+msgid "(%s to import)"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:250
+msgid "Import progress"
+msgstr ""
+
+#. translators: 1: plugin name, 2: percentage done.
+#: includes/admin/class-import-panel.php:270
+#, php-format
+msgid "Checking what %1$s has… %2$s%% done."
+msgstr ""
+
+#. translators: 1: plugin name, 2: percentage done.
+#: includes/admin/class-import-panel.php:272
+#, php-format
+msgid "Importing from %1$s… %2$s%% done. What has been imported so far is kept."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:275
+#: includes/admin/class-wizard-page.php:279
+msgid "Continue"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:276
+msgid "Stop"
+msgstr ""
+
+#. translators: %s: plugin name, e.g. "Yoast SEO".
+#: includes/admin/class-import-panel.php:293
+#, php-format
+msgid "What SEO Fixer found in %s"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:298
+msgid "There is nothing new to import: everything is either already set in SEO Fixer or the same as what SEO Fixer does automatically."
+msgstr ""
+
+#. translators: 1: number of titles or descriptions, 2: plugin name.
+#: includes/admin/class-import-panel.php:306
+#, php-format
+msgid "%1$s title or description uses a variable from %2$s that SEO Fixer doesn’t have (such as a custom field). The variable will be left out, and the rest of the text is kept."
+msgid_plural "%1$s titles or descriptions use a variable from %2$s that SEO Fixer doesn’t have (such as a custom field). The variable will be left out, and the rest of the text is kept."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of focus keyphrases.
+#: includes/admin/class-import-panel.php:317
+#, php-format
+msgid "%s focus keyphrase won’t be imported. SEO Fixer doesn’t use focus keyphrases: it checks every page’s title, description, headings, images and links instead."
+msgid_plural "%s focus keyphrases won’t be imported. SEO Fixer doesn’t use focus keyphrases: it checks every page’s title, description, headings, images and links instead."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-import-panel.php:335
+msgid "Nothing you already set in SEO Fixer is replaced. The other plugin’s data stays as it is, so you can switch back at any time. You can undo the import under SEO Health → Changes."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:346
+msgid "Import now"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:348
+msgid "Import now? Nothing you set in SEO Fixer is replaced, and you can undo it afterwards."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:351
+#: includes/admin/class-redirects-page.php:196
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:351
+msgid "Close"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:392
+msgid "What"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:393
+msgid "Will be imported"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:393
+#: includes/admin/class-redirects-page.php:222
+msgid "Imported"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:394
+msgid "Kept as set in SEO Fixer"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:395
+msgid "Not needed"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:396
+msgid "Can’t be used"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:419
+msgid "“Not needed” means the value is the same as what SEO Fixer already does by default. “Can’t be used” means, for example, an image that isn’t in your Media Library, an address that isn’t valid, or a redirect for your homepage."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:438
+msgid "Examples"
+msgstr ""
+
+#. translators: %s: plugin name, e.g. "Yoast SEO".
+#: includes/admin/class-import-panel.php:447
+#, php-format
+msgid "In %s"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:450
+msgid "Shows as, with SEO Fixer"
+msgstr ""
+
+#. translators: 1: plugin name, 2: list such as "120 pages and posts, 2 site settings".
+#: includes/admin/class-import-panel.php:518
+#, php-format
+msgid "Done. Imported from %1$s: %2$s."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:525
+msgid "See or undo it under Changes"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:528
+msgid "Nothing was imported: everything was already set in SEO Fixer."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:534
+msgid "A new health scan has started in the background, so your SEO Health score reflects the imported titles and descriptions."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:534
+msgid "Open SEO Health"
+msgstr ""
+
+#. translators: %s: plugin name, e.g. "Yoast SEO".
+#: includes/admin/class-import-panel.php:540
+#, php-format
+msgid "%s is still active, so SEO Fixer stays paused to avoid duplicate tags. When you’re ready, deactivate it: SEO Fixer takes over right away, and the old plugin’s data stays in place in case you switch back."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:546
+#: includes/class-conflicts.php:212
+msgid "Open Plugins"
+msgstr ""
+
+#: includes/admin/class-import-panel.php:604
+msgid "The import is already running in another tab or request. Wait a moment, then click Continue."
+msgstr ""
+
+#: includes/admin/class-import-panel.php:627
+msgid "The import couldn’t start. Reload the page and try again."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:32
+msgid "Your sitemap is turned off. WordPress’s basic sitemap is used instead."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:36
+msgid "SEO Fixer is paused, so its sitemap is too. The other SEO plugin’s sitemap is used instead."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:41
+msgid "Your sitemap address"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:45
+#: includes/admin/class-schema-panels.php:116
+#: includes/admin/class-tools-page.php:99
+msgid "Copy"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:48
+#: includes/admin/class-services-panels.php:257
+msgid "Open"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:53
+msgid "Tell Google and Bing about your sitemap once. They check it again by themselves after that."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:56
+msgid "How to submit your sitemap to Google"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:58
+msgid "Open Google Search Console and sign in with your Google account."
+msgstr ""
+
+#. translators: 1: "Add property" button label, 2: "URL prefix" option label, 3: the site address.
+#: includes/admin/class-indexing-panels.php:63
+#, php-format
+msgid "If your site isn’t there yet, click %1$s, choose %2$s and enter %3$s. Google then asks you to prove the site is yours."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:64
+msgid "Add property"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:65
+msgid "URL prefix"
+msgstr ""
+
+#. translators: 1: "HTML tag" option label, 2: link to the settings tab.
+#: includes/admin/class-indexing-panels.php:74
+#, php-format
+msgid "To prove it, choose %1$s and paste the tag under %2$s."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:75
+msgid "HTML tag"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:76
+#: includes/admin/class-settings-registry.php:154
+msgid "Search engines & analytics"
+msgstr ""
+
+#. translators: %s: "Sitemaps" menu label.
+#: includes/admin/class-indexing-panels.php:84
+#, php-format
+msgid "In the menu on the left, open %s."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:85
+#: includes/admin/class-indexing-panels.php:125
+msgid "Sitemaps"
+msgstr ""
+
+#. translators: 1: "Add a new sitemap" box label, 2: sitemap address, 3: "Submit" button label.
+#: includes/admin/class-indexing-panels.php:93
+#, php-format
+msgid "Under %1$s, paste %2$s and click %3$s."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:94
+msgid "Add a new sitemap"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:96
+msgid "Submit"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:100
+msgid "The status changes to “Success” within a few days. You don’t need to submit it again."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:103
+#: includes/admin/class-services-panels.php:68
+msgid "Open Google Search Console"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:108
+msgid "How to submit your sitemap to Bing"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:110
+msgid "Open Bing Webmaster Tools and sign in."
+msgstr ""
+
+#. translators: %s: "Import from Google Search Console" option label.
+#: includes/admin/class-indexing-panels.php:115
+#, php-format
+msgid "Add your site. The quickest way is %s: it copies your site and sitemap from Google."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:116
+msgid "Import from Google Search Console"
+msgstr ""
+
+#. translators: 1: "Sitemaps" menu label, 2: "Submit sitemap" button label, 3: sitemap address.
+#: includes/admin/class-indexing-panels.php:124
+#, php-format
+msgid "Otherwise open %1$s, click %2$s and paste %3$s."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:126
+msgid "Submit sitemap"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:133
+#: includes/admin/class-services-panels.php:74
+msgid "Open Bing Webmaster Tools"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:148
+msgid "Your server has a real robots.txt file, so WordPress and SEO Fixer can’t change what search engines see. Ask your host to delete it if you want to manage robots.txt here."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:151
+msgid "Your site is set to “Discourage search engines”, so robots.txt blocks everything. Your custom rules are used once you turn that off."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:151
+#: includes/admin/class-services-panels.php:240
+#: includes/class-site-status.php:60
+#: includes/scanner/class-site-checks.php:160
+msgid "Open Reading settings"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:155
+msgid "Your addresses use the “Plain” setting (like ?p=123), so WordPress can’t answer at /robots.txt and search engines won’t see these rules. Choose any other option under Settings → Permalinks to fix this."
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:155
+#: includes/admin/class-services-panels.php:241
+#: includes/scanner/class-site-checks.php:271
+msgid "Open Permalink settings"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:164
+msgid "What search engines see now"
+msgstr ""
+
+#: includes/admin/class-indexing-panels.php:180
+msgid "Your robots.txt rules were not saved: they would hide your whole site from Google. To hide a site on purpose, use “Discourage search engines” under Settings → Reading instead."
+msgstr ""
+
+#: includes/admin/class-meta-box.php:105
+#: assets/editor/sidebar.js:350
+msgid "SEO Fixer is paused, so these settings are saved but not used on your site yet."
+msgstr ""
+
+#: includes/admin/class-meta-box.php:105
+#: includes/class-site-status.php:143
+#: includes/class-site-status.php:174
+#: includes/scanner/class-site-checks.php:212
+#: includes/scanner/class-site-checks.php:383
+msgid "Review setting"
+msgstr ""
+
+#: includes/admin/class-meta-box.php:108
+msgid "This page is your homepage, so this is how your whole site appears in Google."
+msgstr ""
+
+#: includes/admin/class-meta-box.php:116
+msgid "Your SEO score, checklist, Google preview, SEO title and description are in the SEO Fixer sidebar."
+msgstr ""
+
+#: includes/admin/class-meta-box.php:117
+msgid "Open the sidebar"
+msgstr ""
+
+#: includes/admin/class-meta-box.php:158
+msgid "SEO checklist"
+msgstr ""
+
+#: includes/admin/class-meta-box.php:159
+msgid "Check again"
+msgstr ""
+
+#: includes/admin/class-meta-box.php:184
+#: includes/admin/class-term-fields.php:98
+#: assets/editor/sidebar.js:387
+msgid "SEO title"
+msgstr ""
+
+#: includes/admin/class-meta-box.php:185
+msgid "The clickable headline in Google. Leave empty to use the automatic title shown in grey."
+msgstr ""
+
+#: includes/admin/class-meta-box.php:186
+msgid "A clear, specific title that includes what people search for gets more clicks. Keep it under about 60 characters so Google doesn’t cut it off."
+msgstr ""
+
+#: includes/admin/class-meta-box.php:194
+#: includes/admin/class-term-fields.php:107
+#: assets/editor/sidebar.js:395
+msgid "Meta description"
+msgstr ""
+
+#: includes/admin/class-meta-box.php:195
+msgid "The short text under the title. Leave empty to use the first sentences of your content."
+msgstr ""
+
+#: includes/admin/class-meta-box.php:196
+msgid "A good description works like a small advert: it tells people what they’ll find and why to click. Without one, Google picks some text from the page."
+msgstr ""
+
+#. translators: %s: number of redirects.
+#: includes/admin/class-redirects-page.php:90
+#, php-format
+msgid "Redirects (%s)"
+msgstr ""
+
+#. translators: %s: number of logged addresses.
+#: includes/admin/class-redirects-page.php:95
+#, php-format
+msgid "Not found (%s)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:101
+msgid "Send visitors and search engines from old or broken addresses to the right page."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:103
+msgid "Redirect sections"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:137
+msgid "Permanent (301)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:137
+msgid "The page moved for good. Search engines pass its ranking to the new address. Use this in almost every case."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:138
+msgid "Temporary (302)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:138
+msgid "The page is away for a while, for example during a sale. Search engines keep the old address."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:139
+msgid "Gone (410)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:139
+msgid "The page was removed on purpose and has no replacement. Search engines drop it faster than a normal “not found”."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:142
+msgid "Temporary, keep method (307)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:142
+msgid "Like 302, but forms keep posting to the new address. Rarely needed."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:147
+msgid "Edit redirect"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:147
+msgid "Add a redirect"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:148
+msgid "When someone opens the old address, they are sent to the new one automatically."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:157
+msgid "From (old address)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:164
+msgid "To (new address)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:165
+msgid "/new-page/ or https://other-site.com/page"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:187
+msgid "Treat “From” as a regular expression"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:190
+msgid "For example ^/blog/(.*)$ with “To” /news/$1 moves a whole section. Addresses are compared in lower case."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:194
+msgid "Save redirect"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:194
+msgid "Add redirect"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:214
+msgid "Permanent"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:215
+msgid "Temporary"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:216
+msgid "Temporary (307)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:217
+msgid "Gone"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:220
+msgid "Added by you"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:221
+msgid "Address changed"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:228
+msgid "Your redirects"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:229
+msgid "Redirects for pages whose address you changed are added here automatically."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:233
+#: includes/admin/class-redirects-page.php:234
+msgid "Search redirects"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:235
+msgid "Search"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:240
+msgid "No redirects match your search."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:240
+msgid "No redirects yet. Add one above, or they will appear here when you change a page’s address."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:250
+msgid "From"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:251
+msgid "To"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:253
+msgid "Used"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:254
+msgid "Last used"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:266
+msgid "Select this redirect"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:271
+msgid "Pattern"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:277
+msgid "Off"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:283
+msgid "— removed for good"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:292
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:294
+#: includes/admin/class-styleguide-page.php:72
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:302
+msgid "Delete selected"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:321
+msgid "Import and export"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:322
+msgid "Move redirects between sites with a spreadsheet file (CSV). Columns: from, to, type (301, 302, 307 or 410)."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:325
+msgid "Download all redirects (CSV)"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:329
+msgid "CSV file to import"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:331
+msgid "Import"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:348
+msgid "The “not found” log is turned off, so new missing pages are not recorded."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:348
+msgid "Turn it on"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:354
+msgid "Addresses that weren’t found"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:355
+msgid "Visitors or search engines tried these addresses and got “Page not found”. Redirect the ones that should lead somewhere. Only the address and the linking page are stored, never visitors’ IP addresses."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:361
+msgid "Empty the whole log?"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:361
+msgid "Clear the log"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:367
+msgid "Nothing here yet. Missing pages will be listed as soon as someone tries one."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:378
+msgid "Tries"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:379
+msgid "Last tried"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:380
+msgid "Linked from"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:387
+msgid "Select this address"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:395
+msgid "Typed or bookmarked"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:399
+msgid "Create redirect"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:408
+msgid "Remove selected"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:426
+msgid "Never"
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:460
+#: includes/admin/class-services-panels.php:297
+msgid "Pages"
+msgstr ""
+
+#. translators: %s: old address.
+#: includes/admin/class-redirects-page.php:519
+#, php-format
+msgid "Saved: %s now answers “gone”."
+msgstr ""
+
+#. translators: 1: old address, 2: new address.
+#: includes/admin/class-redirects-page.php:521
+#, php-format
+msgid "Saved: %1$s now goes to %2$s."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:552
+msgid "Select at least one redirect first."
+msgstr ""
+
+#. translators: %d: number of redirects.
+#: includes/admin/class-redirects-page.php:556
+#, php-format
+msgid "%d redirect deleted."
+msgid_plural "%d redirects deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-redirects-page.php:559
+msgid "Redirect turned on."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:559
+msgid "Redirect turned off."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:578
+msgid "The log is empty."
+msgstr ""
+
+#. translators: %d: number of entries.
+#: includes/admin/class-redirects-page.php:582
+#, php-format
+msgid "%d address removed from the log."
+msgid_plural "%d addresses removed from the log."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-redirects-page.php:626
+msgid "The file could not be uploaded. Please try again."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:628
+msgid "Please choose a .csv file."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:630
+msgid "The file is too large (2 MB at most)."
+msgstr ""
+
+#: includes/admin/class-redirects-page.php:642
+msgid "The file is empty or could not be read."
+msgstr ""
+
+#. translators: %d: number imported.
+#: includes/admin/class-redirects-page.php:687
+#, php-format
+msgid "Imported %d redirect."
+msgid_plural "Imported %d redirects."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of lines skipped.
+#: includes/admin/class-redirects-page.php:690
+#, php-format
+msgid "%d line was skipped because it wasn’t valid."
+msgid_plural "%d lines were skipped because they weren’t valid."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-schema-fields.php:43
+#: includes/admin/class-settings-registry.php:580
+msgid "Social sharing"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:53
+msgid "Image for social sharing"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:54
+msgid "Shown when this page is shared on Facebook, LinkedIn, WhatsApp or X. Leave empty to use the featured image."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:57
+#: includes/admin/class-settings-registry.php:598
+msgid "This image is smaller than 200 × 200 pixels, so Facebook and others may not show it. Use a larger image, ideally 1200 × 630."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:76
+msgid "Title for social sharing"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:77
+msgid "Leave empty to use the SEO title."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:91
+msgid "Description for social sharing"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:92
+msgid "Leave empty to use the meta description."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:120
+msgid "Nothing extra"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:121
+msgid "Software app"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:122
+msgid "Product"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:123
+msgid "Frequently asked questions (FAQ)"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:134
+msgid "Structured data"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:138
+msgid "Posts are described as articles automatically. Add something extra only if this page is about an app, a product or answers common questions."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:141
+msgid "WooCommerce already describes this product to search engines, so SEO Fixer leaves that to WooCommerce."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:146
+msgid "This page is also about"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:147
+msgid "Only choose a type if the page really shows this information to visitors."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:148
+msgid "Google only uses structured data that matches what people see on the page. Markup for things that aren’t on the page can lead to a manual penalty."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:160
+msgid "Google shows app details when the page also has reviews or a rating."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:162
+msgid "App category"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:163
+msgid "Works on"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:163
+msgid "For example: Windows, macOS, Android, iOS, Web"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:171
+msgid "Google can show the price, stock and rating with your result."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:173
+#: includes/admin/class-wizard-page.php:81
+#: includes/admin/class-wizard-page.php:315
+msgid "Brand"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:174
+msgid "SKU or product code"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:179
+msgid "Availability"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:183
+msgid "In stock"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:184
+msgid "Out of stock"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:185
+msgid "Pre-order"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:194
+msgid "Since May 2026 Google no longer shows FAQ rich results. The markup still helps search engines and AI answers understand your page. Only add questions that are visible on the page."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:241
+msgid "Price"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:241
+msgid "For example 19.99, or 0 if free"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:242
+msgid "Currency"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:255
+msgid "Average rating (1–5)"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:256
+msgid "Number of ratings"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:258
+msgid "Only fill in ratings that visitors can see on this page. Leave empty if there are none."
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:284
+msgid "Add a question"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:303
+msgid "Question"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:307
+msgid "Answer"
+msgstr ""
+
+#: includes/admin/class-schema-fields.php:310
+msgid "Remove question"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:29
+#: includes/admin/class-styleguide-page.php:80
+msgid "Rich result"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:30
+msgid "Rich result (desktop)"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:31
+msgid "Rich result with reviews"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:32
+msgid "Helps Google understand"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:33
+msgid "No rich result since May 2026"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:47
+msgid "Structured data is turned off."
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:56
+msgid "You, as a person"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:56
+msgid "Your local business: address, phone and opening hours"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:56
+msgid "Your organization and logo"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:60
+msgid "Your website and its name"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:61
+msgid "Every page: title, description, dates and main image"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:62
+#: includes/admin/class-schema-panels.php:107
+#: includes/admin/class-settings-registry.php:630
+#: includes/schema/class-breadcrumbs.php:53
+#: assets/blocks/breadcrumbs.js:17
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:63
+msgid "Posts as articles, with author"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:64
+msgid "Software apps and products (choose per page in the editor)"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:65
+msgid "FAQs (choose per page in the editor)"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:68
+msgid "What SEO Fixer describes"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:76
+msgid "Edit details"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:84
+msgid "Rich results are never guaranteed: Google decides when to show them. Only types Google still supports get the “Rich result” label."
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:87
+msgid "Test your homepage in Google’s Rich Results Test"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:99
+msgid "Breadcrumb data is added for search engines automatically. To also show the trail to visitors, use one of these:"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:102
+msgid "Block themes and the block editor:"
+msgstr ""
+
+#. translators: %s: block name.
+#: includes/admin/class-schema-panels.php:106
+#, php-format
+msgid "add the %s block, for example at the top of your post template in Appearance → Editor."
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:112
+msgid "Anywhere else:"
+msgstr ""
+
+#: includes/admin/class-schema-panels.php:113
+msgid "paste this shortcode"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:51
+msgid "SEO Fixer is paused because another SEO plugin is active, so these codes are not added to your pages yet."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:65
+msgid "Where do I find my Google code?"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:66
+msgid "In Google Search Console, add your site as a “URL prefix” property. Under “Other verification methods”, choose “HTML tag”, copy the tag and paste it into the Google box. Save here first, then click “Verify” in Search Console."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:71
+msgid "Where do I find my Bing code?"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:72
+msgid "In Bing Webmaster Tools, add your site and choose “HTML Meta Tag”. Copy the tag and paste it into the Bing box. If your site is already in Google Search Console, you can import it into Bing instead and skip this step."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:77
+msgid "Where do I find my Yandex or Pinterest code?"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:78
+msgid "Yandex Webmaster: add your site and choose “Meta tag”. Pinterest: open Settings → Claimed accounts, click “Claim” next to Websites and choose “Add HTML tag”. Copy the tag and paste it into the matching box."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:84
+msgid "The codes are only added to your homepage, which is where search engines look for them. You can paste the code on its own or the whole tag."
+msgstr ""
+
+#. translators: 1: search engine the tag belongs to, e.g. "Bing", 2: box it was pasted into, e.g. "Google".
+#: includes/admin/class-services-panels.php:126
+#, php-format
+msgid "The tag you pasted into the %2$s box is a %1$s tag, so it was not saved. Paste it into the %1$s box instead."
+msgstr ""
+
+#. translators: %s: plugin names, e.g. "Site Kit by Google".
+#: includes/admin/class-services-panels.php:169
+#, php-format
+msgid "%s is also active and may add Google Analytics too. Then every visit is counted twice. Use only one of them for analytics."
+msgstr ""
+
+#. translators: %s: Tag Manager container ID.
+#: includes/admin/class-services-panels.php:180
+#, php-format
+msgid "Google Tag Manager (%s) is added to every page."
+msgstr ""
+
+#. translators: %s: Google Analytics measurement ID.
+#: includes/admin/class-services-panels.php:182
+#, php-format
+msgid "Google Analytics (%s) is added to every page. New visits show up in Google Analytics under Reports → Realtime within a minute."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:188
+msgid "Where do I find my ID?"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:189
+msgid "In Google Analytics, open Admin → Data streams and click your website. The Measurement ID at the top right starts with “G-”. For Google Tag Manager, use the container ID at the top of your workspace; it starts with “GTM-”."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:191
+msgid "Open Google Analytics"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:195
+msgid "Do I need my visitors’ consent?"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:196
+msgid "Google Analytics uses cookies, and Google’s code is loaded from Google’s servers. If you have visitors in the EU, the UK or other places with similar privacy laws, you usually need their consent first and should mention Google Analytics in your privacy policy. Use a cookie consent plugin that supports Google Consent Mode and turn on “Wait for consent” in Advanced view."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:215
+msgid "IDs starting with “UA-” belong to the old Universal Analytics, which Google switched off in 2023. Use the Measurement ID of your Google Analytics 4 property instead; it starts with “G-”."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:218
+msgid "IDs starting with “AW-” are Google Ads tags, which SEO Fixer doesn’t add. Enter a Google Analytics ID (“G-…”) or a Tag Manager ID (“GTM-…”)."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:220
+msgid "That doesn’t look like a Google Analytics ID, so it was not saved. It starts with “G-” (Google Analytics) or “GTM-” (Tag Manager), for example G-ABC123XYZ9."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:233
+msgid "When you turn this on, SEO Fixer creates a key and a small key file on your site that proves the messages come from you. Only the addresses of your pages are sent."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:239
+msgid "SEO Fixer is paused because another SEO plugin is active, so nothing is sent. Many SEO plugins send IndexNow themselves."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:240
+msgid "Your site is set to “Discourage search engines”, so nothing is sent."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:241
+msgid "IndexNow needs readable page addresses (permalinks) so search engines can open your key file. Choose any setting other than “Plain”."
+msgstr ""
+
+#. translators: %s: the site's host name, e.g. "localhost".
+#: includes/admin/class-services-panels.php:243
+#, php-format
+msgid "Your site’s address (%s) isn’t reachable from the internet, so nothing is sent. IndexNow starts working once the site is live on its real address."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:253
+msgid "Your key file"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:264
+msgid "Send a test now"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:265
+msgid "Checks your key file, then sends your homepage address."
+msgstr ""
+
+#. translators: %d: number of page addresses.
+#: includes/admin/class-services-panels.php:273
+#, php-format
+msgid "%d page address is waiting and will be sent within a few minutes."
+msgid_plural "%d page addresses are waiting and will be sent within a few minutes."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-services-panels.php:286
+msgid "Nothing sent yet. The next time you publish or update a page, it appears here."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:293
+msgid "Recent IndexNow submissions"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:298
+msgid "Result"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:319
+msgid "Test"
+msgstr ""
+
+#: includes/admin/class-services-panels.php:351
+msgid "IndexNow can’t send anything on this site right now. The reason is shown below."
+msgstr ""
+
+#: includes/admin/class-services-panels.php:365
+msgid "Your key file didn’t open correctly, so nothing was sent: search engines would refuse it. Some servers or security plugins block .txt addresses; ask your host to let WordPress answer them."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:66
+msgid "Smart defaults are already on. Change only what you need."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:69
+msgid "Settings sections"
+msgstr ""
+
+#. translators: %d: number of hidden settings.
+#: includes/admin/class-settings-page.php:140
+#, php-format
+msgid "%d more setting is available in Advanced view."
+msgid_plural "%d more settings are available in Advanced view."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-settings-page.php:150
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:208
+msgid "Settings saved."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:55
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:58
+msgid "Your website"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:59
+msgid "Tell us what kind of site this is and we will pick sensible defaults for you."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:64
+#: includes/admin/class-wizard-page.php:75
+#: includes/admin/class-wizard-page.php:307
+msgid "Site type"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:65
+msgid "Choose the one that fits best. You can change it any time."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:66
+msgid "A shop, a blog and a local business need different structured data and archive settings. Picking the right type means fewer things to set by hand."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:68
+#: includes/schema/class-graph.php:46
+msgid "Business"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:68
+msgid "Company, service or local business"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:69
+msgid "Blog"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:69
+msgid "Articles, news or a magazine"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:70
+msgid "Online shop"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:70
+msgid "Products you sell online"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:71
+msgid "Portfolio"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:71
+msgid "Your work, projects or gallery"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:77
+msgid "Search engine output"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:78
+msgid "Controls whether SEO Fixer adds its titles and tags to your pages."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:83
+#: includes/admin/class-tools-page.php:55
+#: includes/class-site-status.php:171
+msgid "SEO Fixer output"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:84
+msgid "Automatic pauses SEO Fixer while another SEO plugin is active."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:85
+msgid "Two SEO plugins running together print two titles and two descriptions on every page, which confuses search engines. Automatic prevents that."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:88
+msgid "Always on"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:89
+#: includes/admin/class-tools-page.php:55
+msgid "Paused"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:95
+msgid "Data & privacy"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:96
+msgid "SEO Fixer works entirely inside your site. Nothing is sent anywhere unless you turn on a feature that clearly says so."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:101
+msgid "Keep my settings if I delete the plugin"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:102
+msgid "Leave this on if you might reinstall SEO Fixer later. Deactivating the plugin never removes anything."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:103
+msgid "With this off, deleting the plugin removes everything SEO Fixer stored: settings, the SEO titles and descriptions you wrote for pages, redirects, the “not found” log, health results and the change history. Your posts, pages and images stay as they are, including any alt text SEO Fixer added."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:110
+msgid "Titles & descriptions"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:114
+msgid "Automatic fixes"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:117
+msgid "Fix new and updated pages as they are saved"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:118
+msgid "Each fix only fills in what is missing: text you wrote yourself is never replaced. Every change is listed under SEO Health → Changes, where you can undo it."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:123
+msgid "Write missing descriptions"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:124
+msgid "When a page has no description, or a very short one, SEO Fixer writes one from its first sentences."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:125
+msgid "A clear description under your link in Google makes people more likely to click. This makes sure no page is left without one."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:130
+msgid "Shorten titles that are too long"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:131
+msgid "When the site name makes a title too long for Google, the page title is used on its own."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:132
+msgid "Google cuts titles off after about 60 characters, so the end of a long title — often your site name — is lost anyway. Dropping it keeps the important words visible."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:137
+msgid "Add missing image alt text"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:138
+msgid "Images without alt text get it from their Media Library details, file name, the heading above them or the page title."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:139
+msgid "Alt text helps blind visitors and lets your images appear in Google Images. A sensible description is much better than none, and you can always improve it."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:146
+#: includes/admin/class-visibility-fields.php:53
+msgid "Search visibility"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:150
+msgid "Sitemap & robots.txt"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:158
+msgid "Schema & social"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:166
+msgid "Your brand"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:169
+msgid "Who is behind this website?"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:170
+msgid "Search engines use this to connect your website with your business or your name."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:174
+#: includes/admin/class-wizard-page.php:327
+msgid "Social profiles"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:175
+msgid "Add the profiles you use and leave the rest empty."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:181
+#: includes/admin/class-wizard-page.php:343
+msgid "Local business"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:184
+#: includes/scanner/class-checks.php:401
+msgid "Local business details"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:185
+msgid "For businesses that customers visit, or that serve a local area."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:191
+msgid "Your view"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:194
+msgid "How SEO Fixer looks for you"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:195
+msgid "These choices only affect your own account."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:201
+msgid "Interface mode"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:202
+msgid "Simple shows only what matters. Advanced shows every option."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:203
+msgid "Most sites never need the advanced options. You can switch at any time from the top of every SEO Fixer page."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:205
+#: includes/admin/class-tools-page.php:57
+#: includes/admin/class-ui.php:193
+msgid "Simple"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:213
+msgid "Appearance"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:214
+msgid "Light matches the WordPress dashboard. Dark is easier on the eyes at night."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:216
+msgid "Light"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:217
+msgid "Dark"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:218
+msgid "Match my device"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:253
+msgid "Homepage"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:254
+msgid "How your homepage looks in Google. For many people it’s the first thing they see of your site."
+msgstr ""
+
+#. translators: %s: title of the page used as the homepage.
+#: includes/admin/class-settings-registry.php:261
+#, php-format
+msgid "Your homepage is the page “%s”. Set its title and description in the SEO Fixer box when you edit that page."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:263
+#: includes/scanner/class-site-checks.php:179
+msgid "Edit homepage"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:275
+msgid "Leave empty to use your site title and tagline."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:276
+msgid "Google shows the title as the blue, clickable headline. A clear title that says what you offer gets more clicks."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:287
+msgid "One or two sentences about what you offer. Leave empty to use your tagline."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:288
+msgid "Google often shows this text under your title. Without one, Google picks some text from the page, which may not sell your site well."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:301
+msgid "Used between the page name and your site name in every title."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:306
+#: includes/admin/class-settings-registry.php:649
+msgid "Separator"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:307
+msgid "The symbol between the page name and your site name, as in “About – My Bakery”."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:308
+msgid "It only changes how titles look. Pick one that is easy to read; search engines treat them all the same."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:327
+msgid "Posts, pages and other content"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:328
+msgid "Used for anything that has no SEO title or description of its own. Leave a box empty to use the default shown in it."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:338
+msgid "Categories, tags and other groups"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:339
+msgid "Used for the pages that list everything in a category, tag or similar group."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:345
+msgid "Other pages"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:346
+msgid "Author pages, date archives, search results and the “page not found” page."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:349
+msgid "Author pages"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:350
+msgid "Content-type archives"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:351
+msgid "Date archives"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:352
+msgid "Search results"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:353
+msgid "Page not found (404)"
+msgstr ""
+
+#. translators: %s: content type name, e.g. "Posts".
+#: includes/admin/class-settings-registry.php:374
+#, php-format
+msgid "Show %s in search results"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:375
+msgid "You can still hide or show single items in the SEO Fixer box when editing them."
+msgstr ""
+
+#. translators: %s: taxonomy name, e.g. "Categories".
+#: includes/admin/class-settings-registry.php:385
+#, php-format
+msgid "Show %s pages in search results"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:386
+msgid "These pages list everything in one group. Hide them if they are thin or unused."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:392
+msgid "Pages kept out of search results"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:393
+msgid "These pages repeat content from your real pages. Keeping them out of Google helps your important pages stand out."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:398
+msgid "Hide your internal search result pages"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:399
+msgid "Recommended. Google asks sites not to let their search results appear in Google."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:400
+msgid "Search result pages are endless and change all the time. Google treats them as low-quality pages, and they can be abused by spammers to create pages on your site."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:405
+msgid "Hide date archives"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:406
+msgid "Pages like “All posts from March 2026”. Recommended for most sites."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:411
+msgid "Hide author pages"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:412
+msgid "Recommended when one person writes everything; keep them on blogs with several writers."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:417
+msgid "Send visitors from image pages to the post"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:418
+msgid "WordPress can create a separate, nearly empty page for every image you upload. This sends visitors and Google to the post instead."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:419
+msgid "Hundreds of empty image pages make a site look thin to Google. Redirecting them sends their value to the real post."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:424
+msgid "Content types and groups"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:425
+msgid "Turn a switch off to hide a whole type from search results and from your sitemap."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:439
+#: includes/class-site-status.php:138
+#: includes/scanner/class-checks.php:409
+msgid "XML sitemap"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:440
+msgid "A list of all your pages that helps Google and Bing find them quickly. It updates itself whenever you publish."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:446
+msgid "Create an XML sitemap"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:447
+msgid "Replaces WordPress’s basic sitemap with a better one: hidden pages and user lists are left out, and images are included."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:448
+msgid "A sitemap doesn’t make pages rank, but it helps search engines discover new and updated pages sooner, especially on new or large sites."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:454
+msgid "Include images"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:455
+msgid "Lists the featured image and images in each post so Google Images can find them."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:460
+msgid "robots.txt"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:461
+msgid "A small file that tells search engines which parts of your site they may visit. WordPress creates it for you; SEO Fixer adds your sitemap to it."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:468
+msgid "Custom rules"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:469
+msgid "Replaces WordPress’s default rules. Leave empty to keep the defaults. The sitemap line is added automatically."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:470
+msgid "One wrong line can hide your whole site from Google. SEO Fixer checks your rules and refuses changes that would block everything."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:490
+msgid "Paste the “HTML tag” code from Google Search Console."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:491
+msgid "Paste the “HTML Meta Tag” code from Bing Webmaster Tools."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:492
+msgid "Paste the “Meta tag” code from Yandex Webmaster."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:493
+msgid "Paste the “HTML tag” code from Pinterest’s “Claimed accounts” settings."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:503
+msgid "Search Console shows which searches bring people to your site, which pages Google has found and any problems it sees. Google only shows this to the site’s owner, so you prove it once with this code."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:515
+msgid "Prove this site is yours"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:516
+msgid "Google, Bing and others only show you how your site is doing after you prove you own it. Paste the code they give you and SEO Fixer adds it to your homepage."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:521
+msgid "Google Analytics"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:522
+msgid "See how many people visit, which pages they read and where they come from. Paste your ID and SEO Fixer adds Google’s code to every page; you don’t need another plugin."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:528
+msgid "Google Analytics or Tag Manager ID"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:529
+msgid "Starts with “G-” for Google Analytics 4 or “GTM-” for Google Tag Manager. Leave empty to add no tracking code."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:530
+msgid "Visitor numbers show which pages work and which need attention, and whether your SEO changes bring more people. Nothing is tracked until you enter an ID."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:541
+msgid "Don’t count my own visits"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:542
+msgid "Leaves out visits from logged-in administrators, editors and authors."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:543
+msgid "You visit your own site far more often than anyone else, especially while editing. Counting those visits makes your numbers look better than they are."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:549
+msgid "Wait for consent (Google Consent Mode)"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:550
+msgid "No cookies are set until your cookie banner reports that the visitor agreed. Only turn this on if your cookie consent plugin supports Google Consent Mode."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:551
+msgid "Privacy laws such as the GDPR require consent before analytics cookies are used. With Consent Mode, Google still receives anonymous, cookie-free signals from visitors who decline."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:556
+msgid "IndexNow: instant updates for Bing and others"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:557
+msgid "When you publish, update or delete a page, SEO Fixer tells Bing, Yandex and other IndexNow search engines straight away, so they can update their results within hours instead of days."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:563
+msgid "Tell search engines about changes right away"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:564
+msgid "Sends the address of each page you publish, update or delete to IndexNow (api.indexnow.org). Google doesn’t use IndexNow; it finds changes through your sitemap."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:565
+msgid "Without IndexNow, search engines only notice changes when they next visit, which can take days or weeks. With it, new pages and corrections show up much sooner in Bing, whose results are also used by several other search services."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:581
+msgid "How your pages look when someone shares them on Facebook, LinkedIn, WhatsApp or X."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:586
+msgid "Add social sharing tags"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:587
+msgid "Adds Open Graph and X (Twitter) card tags with the title, description and image of each page."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:588
+msgid "Without these tags, apps guess which text and image to show, often picking a logo or a random picture. A clear image gets more clicks."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:593
+msgid "Default sharing image"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:594
+msgid "Used when a page has no featured image. 1200 × 630 pixels works best."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:595
+msgid "Pages shared without an image get much less attention. Google also uses this image as a thumbnail when it fits."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:604
+msgid "Structured data (schema)"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:605
+msgid "Hidden information that helps search engines understand your pages, and can earn extra details in results such as your logo or breadcrumbs."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:611
+msgid "Add structured data"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:612
+msgid "Describes your business, your website and every page in a format Google reads (JSON-LD)."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:613
+msgid "Structured data is how Google learns your logo, your address and opening hours, who wrote an article, and where a page sits in your site."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:619
+msgid "Posts are described as"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:620
+msgid "Blog post fits most blogs; news article is for news sites."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:622
+msgid "Article"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:623
+msgid "Blog post"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:624
+msgid "News article"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:631
+msgid "A small “Home › Category › Page” trail that helps visitors and search engines see where a page sits."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:638
+msgid "Name of the first link"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:639
+msgid "Leave empty to use “Home”."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:642
+#: includes/admin/class-styleguide-page.php:119
+#: includes/schema/class-breadcrumbs.php:74
+msgid "Home"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:650
+msgid "The symbol between links, such as › or /."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:666
+msgid "Automatic redirects"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:667
+msgid "Keep old links working without lifting a finger."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:669
+msgid "Manage your redirects and see which pages visitors couldn’t find on the Redirects screen."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:671
+msgid "Open Redirects"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:677
+msgid "Redirect old addresses when a page’s address changes"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:678
+msgid "When you change the address of a published post, page, category or tag, visitors using the old one are sent to the new one."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:679
+msgid "Links from other sites, bookmarks and Google still use the old address. Without a redirect they all end on “Page not found”, and the page loses its ranking."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:684
+msgid "Remind me to redirect pages I move to the trash"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:685
+msgid "Shows a one-time message with a “Create a redirect” button after you trash a published page."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:690
+msgid "“Not found” log"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:691
+msgid "A list of addresses that visitors or search engines tried but that don’t exist."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:696
+msgid "Keep a list of pages that weren’t found"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:697
+msgid "Only the address, how often it was tried and the linking page are kept. No IP addresses."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:698
+msgid "Broken links cost you visitors and ranking. The log shows exactly which ones to fix, most-tried first."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:704
+msgid "Keep entries for (days)"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:705
+msgid "Older entries are removed automatically once a day."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:715
+msgid "Maximum number of entries"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:716
+msgid "Keeps the log small on busy sites."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:726
+msgid "Ignore hacking attempts"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:727
+msgid "Skips automated probes for files like .php, .env or wp-login that are never real pages."
+msgstr ""
+
+#. translators: %s: kind of page, e.g. "Posts".
+#: includes/admin/class-settings-registry.php:749
+#, php-format
+msgid "%s — title"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:750
+msgid "Default title. Variables like %title% are replaced automatically."
+msgstr ""
+
+#. translators: %s: kind of page, e.g. "Posts".
+#: includes/admin/class-settings-registry.php:765
+#, php-format
+msgid "%s — description"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:766
+msgid "Default meta description."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:788
+msgid "This website represents"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:789
+msgid "Choose “A person” for a personal blog or portfolio."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:790
+msgid "Google can show your logo, name and social profiles in a panel next to search results. It needs to know whether they belong to a company or a person."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:792
+msgid "A business or organization"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:793
+msgid "A person"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:799
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:800
+msgid "Your business name or your full name, written the way customers know it."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:809
+msgid "Logo or photo"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:810
+msgid "A square image of at least 112 × 112 pixels works best."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:811
+msgid "Google may show this image next to your business in search results. Images smaller than 112 × 112 pixels are not used."
+msgstr ""
+
+#. translators: 1: example profile address, 2: example @handle.
+#: includes/admin/class-settings-registry.php:823
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#. translators: %s: social network name, e.g. Facebook.
+#: includes/admin/class-settings-registry.php:841
+#, php-format
+msgid "Paste the link to your %s profile."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:842
+msgid "These links tell search engines which social accounts belong to you, so they can show them with your brand."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:852
+msgid "Other profiles"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:853
+msgid "Any other official pages, such as Wikipedia or Mastodon. One link per line."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:873
+msgid "Customers visit us, or we serve a local area"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:874
+msgid "Turn this on for shops, restaurants, salons, trades, clinics and similar businesses."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:875
+msgid "Google uses your address and phone number for local results and Maps. Use exactly the same details as on your Google Business Profile."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:880
+msgid "Type of business"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:881
+msgid "Pick the closest match. “Other” is fine if nothing fits."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:884
+msgid "Shop or store"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:885
+msgid "Restaurant"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:886
+msgid "Café or coffee shop"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:887
+msgid "Bakery"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:888
+msgid "Salon, spa or beauty"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:889
+msgid "Gym or sports venue"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:890
+msgid "Medical practice or clinic"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:891
+msgid "Dentist"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:892
+msgid "Home services (plumber, electrician, builder)"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:893
+msgid "Car repair or dealer"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:894
+msgid "Professional service (agency, consultant)"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:895
+msgid "Lawyer or legal service"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:896
+msgid "Accountant or financial service"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:897
+msgid "Real estate agent"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:898
+msgid "Hotel or accommodation"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:899
+msgid "Childcare"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:900
+msgid "Other local business"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:906
+msgid "Street address"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:907
+msgid "Building number and street."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:914
+msgid "City or town"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:915
+msgid "Where the business is located."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:922
+msgid "State or region"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:923
+msgid "Leave empty if your country doesn’t use one."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:930
+msgid "Postal code"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:931
+msgid "Your ZIP code or postcode."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:938
+msgid "Country"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:939
+msgid "The country the business is in."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:947
+msgid "Phone number"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:948
+msgid "Include the country code, for example +44 20 7946 0958."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:958
+msgid "Opening hours"
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:959
+msgid "Tick the days you are open and set the times. Leave everything unticked if you prefer not to show hours."
+msgstr ""
+
+#: includes/admin/class-settings-registry.php:960
+msgid "Google can show your opening hours in results and on Maps. Keep them the same as on your Google Business Profile."
+msgstr ""
+
+#. translators: %s: list of field names, e.g. "LinkedIn and Phone number".
+#: includes/admin/class-settings-registry.php:1111
+#, php-format
+msgid "We couldn’t use what was entered for %s, so it was left empty. Please check it and try again."
+msgstr ""
+
+#: includes/admin/class-setup-notice.php:68
+msgid "Welcome to SEO Fixer!"
+msgstr ""
+
+#: includes/admin/class-setup-notice.php:69
+msgid "Answer a few quick questions and SEO Fixer will set itself up for your website. It takes about two minutes."
+msgstr ""
+
+#: includes/admin/class-setup-notice.php:75
+msgid "Not now"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:42
+msgid "Every SEO Fixer component in one place."
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:46
+msgid "Colour tokens"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:55
+msgid "Score rings"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:58
+#: includes/admin/class-styleguide-page.php:77
+msgid "Good"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:59
+#: includes/admin/class-styleguide-page.php:78
+msgid "Improve"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:61
+msgid "Not scanned"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:67
+msgid "Buttons & badges"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:69
+msgid "Fix all"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:70
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:73
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:87
+msgid "Callouts"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:89
+msgid "12 pages were fixed. You can undo this for 30 days."
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:90
+msgid "3 pages have no description — Google may show random text."
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:91
+msgid "Search engines are blocked from your whole site."
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:92
+msgid "FAQ markup helps understanding but shows no rich result since May 2026."
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:97
+msgid "Character bars"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:101
+msgid "Fresh sourdough bread delivered in Pune – Demo Bakery"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:108
+msgid "Too short."
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:115
+msgid "Table"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:117
+msgid "Issues"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:120
+msgid "About us"
+msgstr ""
+
+#: includes/admin/class-styleguide-page.php:121
+msgid "Old offer"
+msgstr ""
+
+#: includes/admin/class-term-fields.php:99
+msgid "Leave empty to use the automatic title shown in grey."
+msgstr ""
+
+#: includes/admin/class-term-fields.php:108
+msgid "Leave empty to use the description above."
+msgstr ""
+
+#: includes/admin/class-tools-page.php:47
+msgid "SEO Fixer version"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:48
+msgid "Database version"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:49
+msgid "WordPress version"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:50
+msgid "PHP version"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:51
+msgid "Site address"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:52
+msgid "Multisite"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:52
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:52
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:53
+msgid "Search engine visibility"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:53
+msgid "Discouraged"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:53
+msgid "Allowed"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:54
+msgid "Permalink structure"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:54
+msgid "Plain"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:55
+msgid "On"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:56
+msgid "Other SEO plugins"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:57
+msgid "Interface view"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:76
+msgid "Handy extras and information for troubleshooting."
+msgstr ""
+
+#: includes/admin/class-tools-page.php:82
+msgid "Setup wizard"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:83
+msgid "Answer the setup questions again, for example after your site changes what it offers. Your current answers are filled in."
+msgstr ""
+
+#: includes/admin/class-tools-page.php:86
+msgid "Run setup again"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:94
+msgid "System information"
+msgstr ""
+
+#: includes/admin/class-tools-page.php:95
+msgid "Share this when asking for support. It contains no passwords or personal data."
+msgstr ""
+
+#: includes/admin/class-ui.php:183
+msgid "SEO Fixer sections"
+msgstr ""
+
+#: includes/admin/class-ui.php:191
+msgid "View"
+msgstr ""
+
+#: includes/admin/class-ui.php:274
+msgid "Variables you can use"
+msgstr ""
+
+#: includes/admin/class-ui.php:350
+#: assets/editor/sidebar.js:375
+msgid "Google preview"
+msgstr ""
+
+#: includes/admin/class-ui.php:351
+msgid "Hidden from search results"
+msgstr ""
+
+#: includes/admin/class-ui.php:353
+msgid "Desktop"
+msgstr ""
+
+#: includes/admin/class-ui.php:354
+msgid "Mobile"
+msgstr ""
+
+#: includes/admin/class-ui.php:388
+msgid "Google sometimes rewrites titles and descriptions. This shows what SEO Fixer sends."
+msgstr ""
+
+#: includes/admin/class-ui.php:451
+msgid "SEO health score: not measured yet"
+msgstr ""
+
+#. translators: %d: score from 0 to 100.
+#: includes/admin/class-ui.php:453
+#, php-format
+msgid "SEO health score: %d out of 100"
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:48
+msgid "Turn this off for pages that shouldn’t appear in Google, such as a thank-you or login page."
+msgstr ""
+
+#. translators: %s: content type name, e.g. "Pages".
+#: includes/admin/class-visibility-fields.php:50
+#, php-format
+msgid "%s are hidden from search results in Settings. Turn this on to show this one anyway."
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:56
+msgid "This is your homepage and it is hidden from search results. Most sites should show their homepage."
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:62
+msgid "Show in search results"
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:64
+msgid "Hidden pages get a “noindex” tag and are left out of your sitemap. Search engines can still follow their links to your other pages."
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:78
+msgid "Let search engines follow the links on this page"
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:80
+msgid "Leave this on. Turn it off only for pages full of links you don’t vouch for."
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:91
+msgid "Canonical URL"
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:93
+msgid "Only if this page is a copy of another page: enter the original’s address. Leave empty in almost every case."
+msgstr ""
+
+#: includes/admin/class-visibility-fields.php:94
+msgid "When two pages are nearly identical, the canonical URL tells Google which one to show, so they don’t compete with each other."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:76
+msgid "What kind of website is this?"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:77
+msgid "SEO Fixer uses your answers to choose the right settings. It takes about two minutes, and you can change everything later."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:82
+msgid "Who is behind the website?"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:83
+msgid "Search engines use your name and logo to recognise your brand and show it in results."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:87
+#: includes/schema/class-graph.php:58
+msgid "Social"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:88
+msgid "Where else can people find you?"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:89
+msgid "Add the social profiles you use. Leave the others empty."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:93
+msgid "Location"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:94
+msgid "Do customers visit you?"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:95
+msgid "If you have a shop or office, or you serve a local area, your address helps you appear in local search and on Maps."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:153
+msgid "SEO Fixer setup"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:155
+msgid "Exit setup"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:183
+msgid "Setup progress"
+msgstr ""
+
+#. translators: 1: current step number, 2: number of steps.
+#: includes/admin/class-wizard-page.php:227
+#, php-format
+msgid "Step %1$d of %2$d"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:259
+msgid "Use the recommended settings for this kind of site"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:260
+msgid "For example, internal search result pages are kept out of Google. You can change each setting later."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:261
+msgid "Pages like search results and date archives repeat content from your real pages. Keeping them out of Google helps your important pages stand out."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:272
+msgid "Back"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:277
+msgid "Skip this step"
+msgstr ""
+
+#. translators: %s: business or person name.
+#: includes/admin/class-wizard-page.php:318
+#, php-format
+msgid "%s, with a logo."
+msgstr ""
+
+#. translators: %s: business or person name.
+#: includes/admin/class-wizard-page.php:320
+#, php-format
+msgid "%s. No logo yet — adding one helps Google show your brand."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:322
+msgid "Add a logo"
+msgstr ""
+
+#. translators: %d: number of social profiles.
+#: includes/admin/class-wizard-page.php:330
+#, php-format
+msgid "%d profile added."
+msgid_plural "%d profiles added."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wizard-page.php:331
+msgid "None added yet."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:333
+msgid "Add profiles"
+msgstr ""
+
+#. translators: %s: city name.
+#: includes/admin/class-wizard-page.php:346
+#, php-format
+msgid "Address saved (%s)."
+msgstr ""
+
+#. translators: %s: city name.
+#: includes/admin/class-wizard-page.php:346
+msgid "Turned on, but the address is incomplete."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:347
+msgid "Not a local business."
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:349
+msgid "Finish address"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:355
+msgid "You’re all set!"
+msgstr ""
+
+#. translators: %s: site type, e.g. "Online shop".
+#: includes/admin/class-wizard-page.php:359
+#, php-format
+msgid "SEO Fixer is set up for your site (%s). Here is what we saved:"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:365
+msgid "Recommended settings"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:373
+msgid "Review all settings"
+msgstr ""
+
+#: includes/admin/class-wizard-page.php:375
+msgid "Go to SEO Health"
+msgstr ""
+
+#. translators: %s: names of other SEO plugins, e.g. "Yoast SEO".
+#: includes/class-conflicts.php:187
+#, php-format
+msgid "SEO Fixer and %s are both adding SEO tags to your pages."
+msgstr ""
+
+#: includes/class-conflicts.php:190
+msgid "Search engines may see two titles and two descriptions per page. Keep only one SEO plugin active, or let SEO Fixer pause itself."
+msgstr ""
+
+#. translators: %s: names of other SEO plugins, e.g. "Yoast SEO" or "Yoast SEO and Rank Math SEO".
+#: includes/class-conflicts.php:194
+#, php-format
+msgid "SEO Fixer is paused because %s is active."
+msgid_plural "SEO Fixer is paused because %s are active."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-conflicts.php:197
+msgid "To avoid duplicate titles and tags, SEO Fixer is not adding anything to your pages yet. When you are ready to switch, deactivate the other plugin — SEO Fixer will start working automatically."
+msgstr ""
+
+#: includes/class-conflicts.php:210
+msgid "Let SEO Fixer pause itself"
+msgstr ""
+
+#: includes/class-conflicts.php:215
+msgid "Bring your settings over first"
+msgstr ""
+
+#: includes/class-conflicts.php:217
+msgid "Hide this notice"
+msgstr ""
+
+#: includes/class-countries.php:53
+msgid "— Choose a country —"
+msgstr ""
+
+#: includes/class-presets.php:75
+msgid "Your internal search result pages are kept out of Google, as Google recommends."
+msgstr ""
+
+#: includes/class-presets.php:78
+msgid "Date archives (lists of posts by month) are kept out of Google, so they don’t compete with your real pages."
+msgstr ""
+
+#: includes/class-presets.php:81
+msgid "Author pages are kept out of Google, because they repeat content found elsewhere."
+msgstr ""
+
+#: includes/class-presets.php:82
+msgid "Author pages stay visible in Google, so readers can find articles by each writer."
+msgstr ""
+
+#: includes/class-presets.php:84
+msgid "Image attachment pages send visitors to the post the image belongs to."
+msgstr ""
+
+#: includes/class-presets.php:87
+msgid "Your posts are described to search engines as blog posts."
+msgstr ""
+
+#: includes/class-presets.php:88
+msgid "Your posts are described to search engines as articles."
+msgstr ""
+
+#: includes/class-security.php:51
+msgid "Sorry, you are not allowed to change SEO Fixer settings. Please ask a site administrator."
+msgstr ""
+
+#: includes/class-security.php:52
+msgid "Not allowed"
+msgstr ""
+
+#: includes/class-site-status.php:55
+#: includes/scanner/class-checks.php:365
+msgid "Search engines can see your site"
+msgstr ""
+
+#: includes/class-site-status.php:57
+msgid "Your site is open to Google, Bing and other search engines."
+msgstr ""
+
+#: includes/class-site-status.php:58
+msgid "Your site is set to “Discourage search engines”, so Google may not show it at all."
+msgstr ""
+
+#: includes/class-site-status.php:75
+#: includes/scanner/class-checks.php:381
+msgid "Secure connection (HTTPS)"
+msgstr ""
+
+#: includes/class-site-status.php:77
+msgid "Your site address starts with https://."
+msgstr ""
+
+#: includes/class-site-status.php:78
+msgid "Your site address starts with http://. Browsers mark it “Not secure” and Google prefers HTTPS pages."
+msgstr ""
+
+#: includes/class-site-status.php:80
+#: includes/scanner/class-site-checks.php:227
+msgid "Check Site Health"
+msgstr ""
+
+#: includes/class-site-status.php:95
+#: includes/scanner/class-checks.php:389
+msgid "Readable page addresses"
+msgstr ""
+
+#: includes/class-site-status.php:97
+msgid "Your page addresses contain words, not numbers."
+msgstr ""
+
+#: includes/class-site-status.php:98
+msgid "Your page addresses look like “?p=123”. Words in the address help people and search engines."
+msgstr ""
+
+#: includes/class-site-status.php:100
+msgid "Choose “Post name”"
+msgstr ""
+
+#: includes/class-site-status.php:118
+#: includes/scanner/class-checks.php:417
+msgid "Site icon"
+msgstr ""
+
+#: includes/class-site-status.php:120
+msgid "Google can show your icon next to your pages in results."
+msgstr ""
+
+#: includes/class-site-status.php:121
+msgid "No site icon yet. Google shows a generic globe next to your pages instead."
+msgstr ""
+
+#: includes/class-site-status.php:123
+#: includes/scanner/class-site-checks.php:416
+msgid "Add a site icon"
+msgstr ""
+
+#: includes/class-site-status.php:140
+msgid "Your sitemap is ready. Submit it once in Google Search Console so Google finds new pages faster."
+msgstr ""
+
+#: includes/class-site-status.php:141
+msgid "SEO Fixer’s sitemap is off or paused."
+msgstr ""
+
+#: includes/class-site-status.php:143
+msgid "How to submit"
+msgstr ""
+
+#: includes/class-site-status.php:157
+msgid "SEO Fixer is adding its tags to your pages."
+msgstr ""
+
+#. translators: %s: names of other SEO plugins.
+#: includes/class-site-status.php:161
+#, php-format
+msgid "Paused while %s is active, to avoid duplicate tags."
+msgid_plural "Paused while %s are active, to avoid duplicate tags."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-site-status.php:165
+msgid "Paused in Settings. Your pages get no SEO tags from SEO Fixer."
+msgstr ""
+
+#: includes/editor/class-live-check.php:98
+msgid "This content can’t be checked."
+msgstr ""
+
+#: includes/editor/class-live-check.php:314
+msgid "SEO score for this page, including changes you haven’t saved yet."
+msgstr ""
+
+#: includes/editor/class-live-check.php:315
+msgid "SEO score for this page once it’s published."
+msgstr ""
+
+#: includes/editor/class-live-check.php:335
+#: assets/editor/sidebar.js:252
+msgid "Leave the site name off"
+msgstr ""
+
+#: includes/editor/class-live-check.php:335
+msgid "Use a suggested description"
+msgstr ""
+
+#: includes/editor/class-live-check.php:346
+#: assets/editor/sidebar.js:370
+msgid "Everything checks out. Nice work!"
+msgstr ""
+
+#. translators: %d: number of passed checks.
+#: includes/editor/class-live-check.php:353
+#: assets/editor/sidebar.js:408
+#, php-format,js-format
+msgid "%d check passed"
+msgid_plural "%d checks passed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/frontend/class-site-tags.php:163
+msgid "Google Tag Manager"
+msgstr ""
+
+#. translators: 1: number of items handled so far, 2: total number of items.
+#: includes/import/class-importer.php:239
+#, php-format
+msgid "Checking… %1$s of %2$s"
+msgstr ""
+
+#. translators: 1: number of items handled so far, 2: total number of items.
+#: includes/import/class-importer.php:239
+#, php-format
+msgid "Importing… %1$s of %2$s"
+msgstr ""
+
+#: includes/indexing/class-indexnow.php:465
+msgid "Accepted. Bing and the other IndexNow search engines were told."
+msgstr ""
+
+#: includes/indexing/class-indexnow.php:470
+msgid "Received. The search engines are still checking your key, which is normal the first time."
+msgstr ""
+
+#: includes/indexing/class-indexnow.php:475
+msgid "Refused: the request wasn’t valid."
+msgstr ""
+
+#: includes/indexing/class-indexnow.php:480
+msgid "Refused: the key wasn’t accepted. Check that your key file opens and shows the key."
+msgstr ""
+
+#: includes/indexing/class-indexnow.php:485
+msgid "Refused: the addresses don’t match this site or its key."
+msgstr ""
+
+#: includes/indexing/class-indexnow.php:490
+msgid "Too many requests for now. SEO Fixer will try again later."
+msgstr ""
+
+#. translators: %s: technical error message.
+#: includes/indexing/class-indexnow.php:496
+#, php-format
+msgid "IndexNow couldn’t be reached (%s). SEO Fixer will try again later."
+msgstr ""
+
+#. translators: %d: HTTP status code.
+#: includes/indexing/class-indexnow.php:503
+#, php-format
+msgid "Unexpected answer (code %d)."
+msgstr ""
+
+#. translators: %d: line number.
+#: includes/indexing/class-robots.php:107
+#, php-format
+msgid "Line %d isn’t a valid rule. Rules look like “Disallow: /private/”."
+msgstr ""
+
+#. translators: 1: line number, 2: the unknown rule name.
+#: includes/indexing/class-robots.php:119
+#, php-format
+msgid "Line %1$d: search engines don’t understand “%2$s”."
+msgstr ""
+
+#: includes/indexing/class-robots.php:140
+msgid "“Disallow: /” blocks your whole site from Google."
+msgstr ""
+
+#. translators: %s: a robots.txt path such as /wp-content/.
+#: includes/indexing/class-robots.php:146
+#, php-format
+msgid "“Disallow: %s” hides files Google needs to see your pages properly (images, styles or scripts)."
+msgstr ""
+
+#: includes/indexing/class-robots.php:151
+msgid "Google ignores “Crawl-delay”. Bing and some other search engines use it."
+msgstr ""
+
+#: includes/indexing/class-robots.php:156
+msgid "Google doesn’t support “Noindex” in robots.txt. Hide pages with SEO Fixer’s “Show in search results” switch instead."
+msgstr ""
+
+#: includes/indexing/class-sitemap-xml.php:371
+msgid "XML Sitemap"
+msgstr ""
+
+#: includes/indexing/class-sitemap-xml.php:372
+msgid "This sitemap is made by SEO Fixer. Search engines read it to find every page you want them to show. People don’t need to do anything with it."
+msgstr ""
+
+#: includes/indexing/class-sitemap-xml.php:373
+msgid "Sitemaps in this index:"
+msgstr ""
+
+#: includes/indexing/class-sitemap-xml.php:374
+msgid "Addresses in this sitemap:"
+msgstr ""
+
+#: includes/indexing/class-sitemap-xml.php:376
+msgid "Images"
+msgstr ""
+
+#: includes/indexing/class-sitemap-xml.php:377
+msgid "Last changed"
+msgstr ""
+
+#: includes/indexing/class-sitemap-xml.php:378
+msgid "Back to the sitemap index"
+msgstr ""
+
+#. translators: %s: what the visitor searched for.
+#: includes/meta/class-templates.php:87
+#: includes/schema/class-breadcrumbs.php:132
+#, php-format
+msgid "Search results for “%s”"
+msgstr ""
+
+#: includes/meta/class-templates.php:88
+#: includes/schema/class-breadcrumbs.php:136
+msgid "Page not found"
+msgstr ""
+
+#: includes/meta/class-variables.php:28
+msgid "Title of the post or page"
+msgstr ""
+
+#: includes/meta/class-variables.php:29
+msgid "Your site title"
+msgstr ""
+
+#: includes/meta/class-variables.php:30
+msgid "Your site tagline"
+msgstr ""
+
+#: includes/meta/class-variables.php:31
+msgid "The title separator"
+msgstr ""
+
+#: includes/meta/class-variables.php:32
+msgid "The excerpt, or else the first sentences of the content"
+msgstr ""
+
+#: includes/meta/class-variables.php:33
+msgid "The first category of the post"
+msgstr ""
+
+#: includes/meta/class-variables.php:34
+msgid "Name of the category, tag or other group"
+msgstr ""
+
+#: includes/meta/class-variables.php:35
+msgid "Description of the category, tag or other group"
+msgstr ""
+
+#: includes/meta/class-variables.php:36
+msgid "Author name"
+msgstr ""
+
+#: includes/meta/class-variables.php:37
+msgid "Author biography"
+msgstr ""
+
+#: includes/meta/class-variables.php:38
+msgid "Publish date, or the date of a date archive"
+msgstr ""
+
+#: includes/meta/class-variables.php:39
+msgid "Name of a content-type archive, such as “Products”"
+msgstr ""
+
+#: includes/meta/class-variables.php:40
+msgid "What the visitor searched for"
+msgstr ""
+
+#: includes/meta/class-variables.php:41
+msgid "“Page 2 of 5” on later pages; empty on the first page"
+msgstr ""
+
+#: includes/meta/class-variables.php:42
+msgid "The current year"
+msgstr ""
+
+#. translators: 1: current page number, 2: total number of pages.
+#: includes/meta/class-variables.php:155
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+#: includes/redirects/class-store.php:323
+msgid "The “from” pattern isn’t a valid regular expression."
+msgstr ""
+
+#: includes/redirects/class-store.php:328
+msgid "The “from” address must be on this website, for example /old-page/."
+msgstr ""
+
+#: includes/redirects/class-store.php:330
+msgid "Your homepage can’t be redirected here. Change the homepage in Settings → Reading instead."
+msgstr ""
+
+#: includes/redirects/class-store.php:336
+msgid "Enter where visitors should go."
+msgstr ""
+
+#: includes/redirects/class-store.php:343
+msgid "A page can’t redirect to itself."
+msgstr ""
+
+#. translators: %s: post title.
+#: includes/redirects/class-watcher.php:210
+#, php-format
+msgid "“%s” is in the trash, so anyone following a link to it now sees “Page not found”. Send them to a similar page instead?"
+msgstr ""
+
+#: includes/redirects/class-watcher.php:214
+msgid "Create a redirect"
+msgstr ""
+
+#: includes/requirements.php:29
+msgid "SEO Fixer needs the PHP “mbstring” extension, which is missing on this server. Your hosting provider can switch it on. Until then, SEO Fixer does nothing."
+msgstr ""
+
+#: includes/scanner/class-checks.php:60
+msgid "No description"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:62
+#, php-format
+msgid "%s page has no description at all — Google may show random text from it."
+msgid_plural "%s pages have no description at all — Google may show random text from them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:63
+msgid "This page has no description, and its content is too short to write one from."
+msgstr ""
+
+#: includes/scanner/class-checks.php:68
+msgid "Same title as another page"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:70
+#, php-format
+msgid "%s page shares its title with another page — Google may not know which one to show."
+msgid_plural "%s pages share their title with another page — Google may not know which one to show."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:71
+msgid "Another page has exactly the same title."
+msgstr ""
+
+#: includes/scanner/class-checks.php:76
+msgid "Same description as another page"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:78
+#, php-format
+msgid "%s page shares its description with another page."
+msgid_plural "%s pages share their description with another page."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:79
+msgid "Another page has exactly the same description."
+msgstr ""
+
+#: includes/scanner/class-checks.php:84
+msgid "Images without alt text"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:86
+#, php-format
+msgid "%s page has images without alt text — search engines and screen readers can’t tell what they show."
+msgid_plural "%s pages have images without alt text — search engines and screen readers can’t tell what they show."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:87
+msgid "Some images have no alt text."
+msgstr ""
+
+#: includes/scanner/class-checks.php:92
+msgid "Broken links"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:94
+#, php-format
+msgid "%s page links to pages on your site that don’t exist."
+msgid_plural "%s pages link to pages on your site that don’t exist."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:95
+msgid "Links to pages on your site that don’t exist."
+msgstr ""
+
+#: includes/scanner/class-checks.php:100
+msgid "No links pointing to it"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:102
+#, php-format
+msgid "%s page isn’t linked from any other page or menu — visitors and Google may never find it."
+msgid_plural "%s pages aren’t linked from any other page or menu — visitors and Google may never find them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:103
+msgid "No other page or menu links here."
+msgstr ""
+
+#: includes/scanner/class-checks.php:108
+msgid "Title too long"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:110
+#, php-format
+msgid "%s page has a title that Google will cut off."
+msgid_plural "%s pages have titles that Google will cut off."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:111
+msgid "The title is longer than about 65 characters, so Google will cut it off."
+msgstr ""
+
+#: includes/scanner/class-checks.php:116
+msgid "Description too long"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:118
+#, php-format
+msgid "%s page has a description that Google will cut off."
+msgid_plural "%s pages have descriptions that Google will cut off."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:119
+msgid "The description is longer than about 160 characters."
+msgstr ""
+
+#: includes/scanner/class-checks.php:124
+msgid "Description too short"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:126
+#, php-format
+msgid "%s page has a very short description."
+msgid_plural "%s pages have very short descriptions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:127
+msgid "The description is shorter than 70 characters — there is room to say more."
+msgstr ""
+
+#: includes/scanner/class-checks.php:132
+msgid "Extra main heading"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:134
+#, php-format
+msgid "%s page uses a main heading (H1) inside its text, on top of the page title."
+msgid_plural "%s pages use a main heading (H1) inside their text, on top of the page title."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:135
+msgid "The text contains a main heading (H1). The title is already the main heading; use Heading 2 inside the text."
+msgstr ""
+
+#: includes/scanner/class-checks.php:140
+msgid "Very large images"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:142
+#, php-format
+msgid "%s page has images larger than 500 KB that slow it down."
+msgid_plural "%s pages have images larger than 500 KB that slow them down."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:143
+msgid "Some images are larger than 500 KB and slow the page down."
+msgstr ""
+
+#: includes/scanner/class-checks.php:148
+msgid "No image for sharing"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:150
+#, php-format
+msgid "%s page has no image, so it looks bare when shared and in Google Discover."
+msgid_plural "%s pages have no image, so they look bare when shared and in Google Discover."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:151
+msgid "No featured or sharing image."
+msgstr ""
+
+#: includes/scanner/class-checks.php:156
+msgid "Long address"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:158
+#, php-format
+msgid "%s page has a very long address."
+msgid_plural "%s pages have very long addresses."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:159
+msgid "The address (slug) is longer than 60 characters. Short addresses are easier to share and read."
+msgstr ""
+
+#: includes/scanner/class-checks.php:164
+msgid "Hidden from search"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:166
+#, php-format
+msgid "%s page is hidden from search results on purpose — check that’s still what you want."
+msgid_plural "%s pages are hidden from search results on purpose — check that’s still what you want."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:167
+msgid "This page is set to “hide from search results”."
+msgstr ""
+
+#: includes/scanner/class-checks.php:172
+msgid "Automatic description"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:174
+#, php-format
+msgid "%s page uses a description written automatically from its first sentences. A hand-written one usually gets more clicks."
+msgid_plural "%s pages use a description written automatically from their first sentences. A hand-written one usually gets more clicks."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:175
+msgid "The description is written automatically from the first sentences."
+msgstr ""
+
+#: includes/scanner/class-checks.php:180
+msgid "Short content"
+msgstr ""
+
+#. translators: %s: number of pages.
+#: includes/scanner/class-checks.php:182
+#, php-format
+msgid "%s page has fewer than 300 words. That can be fine, but pages that answer a question fully tend to do better."
+msgid_plural "%s pages have fewer than 300 words. That can be fine, but pages that answer a question fully tend to do better."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-checks.php:183
+msgid "Fewer than 300 words."
+msgstr ""
+
+#: includes/scanner/class-checks.php:196
+msgid "Has a description"
+msgstr ""
+
+#: includes/scanner/class-checks.php:197
+msgid "Title is unique"
+msgstr ""
+
+#: includes/scanner/class-checks.php:198
+msgid "Description is unique"
+msgstr ""
+
+#: includes/scanner/class-checks.php:199
+msgid "Images have alt text"
+msgstr ""
+
+#: includes/scanner/class-checks.php:200
+msgid "No broken links"
+msgstr ""
+
+#: includes/scanner/class-checks.php:201
+msgid "Other pages or menus link here"
+msgstr ""
+
+#: includes/scanner/class-checks.php:202
+msgid "Title fits in Google"
+msgstr ""
+
+#: includes/scanner/class-checks.php:203
+msgid "Description fits in Google"
+msgstr ""
+
+#: includes/scanner/class-checks.php:204
+msgid "Description is long enough"
+msgstr ""
+
+#: includes/scanner/class-checks.php:205
+msgid "One main heading"
+msgstr ""
+
+#: includes/scanner/class-checks.php:206
+msgid "Images are a sensible size"
+msgstr ""
+
+#: includes/scanner/class-checks.php:207
+msgid "Has an image for sharing"
+msgstr ""
+
+#: includes/scanner/class-checks.php:208
+msgid "Address is short"
+msgstr ""
+
+#: includes/scanner/class-checks.php:209
+msgid "Shown in search results"
+msgstr ""
+
+#: includes/scanner/class-checks.php:210
+msgid "Description written by you"
+msgstr ""
+
+#: includes/scanner/class-checks.php:211
+msgid "Enough words"
+msgstr ""
+
+#: includes/scanner/class-checks.php:224
+msgid "The description is the grey text under your link in Google. A clear one tells people what they’ll find and makes them more likely to click."
+msgstr ""
+
+#: includes/scanner/class-checks.php:225
+msgid "Open the page and write one or two sentences under “Description” in the SEO Fixer box."
+msgstr ""
+
+#: includes/scanner/class-checks.php:228
+msgid "When two pages have the same title, Google can’t tell which one answers a search, and may show neither."
+msgstr ""
+
+#: includes/scanner/class-checks.php:229
+msgid "Give each page a title that says what makes it different."
+msgstr ""
+
+#: includes/scanner/class-checks.php:232
+msgid "Each page should have its own summary, so people can tell which result is the one they want."
+msgstr ""
+
+#: includes/scanner/class-checks.php:233
+msgid "Write a different description for each of these pages."
+msgstr ""
+
+#: includes/scanner/class-checks.php:236
+msgid "Alt text describes an image for blind visitors and for Google Images. Without it, your images can’t be found in image search."
+msgstr ""
+
+#: includes/scanner/class-checks.php:237
+msgid "In the editor, click the image and fill in “Alternative text” with a short description of what it shows."
+msgstr ""
+
+#: includes/scanner/class-checks.php:240
+msgid "Links to missing pages frustrate visitors and waste the time Google spends on your site."
+msgstr ""
+
+#: includes/scanner/class-checks.php:241
+msgid "Edit the page and fix or remove the link — or, if the page moved, create a redirect from the old address."
+msgstr ""
+
+#: includes/scanner/class-checks.php:244
+msgid "Google finds pages by following links. A page nothing links to may never be found, by Google or by visitors."
+msgstr ""
+
+#: includes/scanner/class-checks.php:245
+msgid "Link to it from a related page, or add it to your menu."
+msgstr ""
+
+#: includes/scanner/class-checks.php:248
+msgid "Google shows about 60 characters of a title. The rest is cut off with “…”, which can hide the most important words."
+msgstr ""
+
+#: includes/scanner/class-checks.php:249
+msgid "Shorten the SEO title and put the most important words first."
+msgstr ""
+
+#: includes/scanner/class-checks.php:252
+msgid "Google shows about 155 characters of a description and cuts off the rest."
+msgstr ""
+
+#: includes/scanner/class-checks.php:253
+msgid "Shorten the description to one or two sentences."
+msgstr ""
+
+#: includes/scanner/class-checks.php:256
+msgid "A very short description wastes space that could convince people to click."
+msgstr ""
+
+#: includes/scanner/class-checks.php:257
+msgid "Add a sentence about what people will find or learn on the page."
+msgstr ""
+
+#: includes/scanner/class-checks.php:260
+msgid "The page title is already the main heading. A second main heading makes the page’s topic less clear."
+msgstr ""
+
+#: includes/scanner/class-checks.php:261
+msgid "In the editor, change those headings to Heading 2 (or lower)."
+msgstr ""
+
+#: includes/scanner/class-checks.php:264
+msgid "Large images make pages slow to load, especially on phones. Slow pages lose visitors and rank lower."
+msgstr ""
+
+#: includes/scanner/class-checks.php:265
+msgid "Upload a smaller version (under 500 KB), or use an image-compression plugin."
+msgstr ""
+
+#: includes/scanner/class-checks.php:268
+msgid "Pages with an image stand out when shared on social media and can appear in Google Discover."
+msgstr ""
+
+#: includes/scanner/class-checks.php:269
+msgid "Set a featured image, or choose a sharing image in the SEO Fixer box. You can also set a default sharing image in Settings."
+msgstr ""
+
+#: includes/scanner/class-checks.php:272
+msgid "Short addresses are easier to read, share and remember."
+msgstr ""
+
+#: includes/scanner/class-checks.php:273
+msgid "Shorten the permalink in the editor. SEO Fixer adds a redirect from the old address for you."
+msgstr ""
+
+#: includes/scanner/class-checks.php:276
+msgid "Hidden pages never appear in Google. That’s right for thank-you or login pages, but not for content you want people to find."
+msgstr ""
+
+#: includes/scanner/class-checks.php:277
+msgid "If the page should be found, turn on “Show in search results” in its SEO Fixer box."
+msgstr ""
+
+#: includes/scanner/class-checks.php:280
+msgid "SEO Fixer writes a description from the first sentences, so the page is never empty in Google. A description written for searchers usually gets more clicks."
+msgstr ""
+
+#: includes/scanner/class-checks.php:281
+msgid "For your most important pages, write your own description in the SEO Fixer box."
+msgstr ""
+
+#: includes/scanner/class-checks.php:284
+msgid "Short pages are fine for contact or product pages. For articles, pages that answer a question fully tend to rank better."
+msgstr ""
+
+#: includes/scanner/class-checks.php:285
+msgid "If this is an article, consider adding detail, examples or answers to common questions."
+msgstr ""
+
+#: includes/scanner/class-checks.php:290
+msgid "This WordPress setting asks every search engine to stay away. Nothing else you do matters while it’s on."
+msgstr ""
+
+#: includes/scanner/class-checks.php:291
+msgid "Go to Settings → Reading and untick “Discourage search engines from indexing this site”."
+msgstr ""
+
+#: includes/scanner/class-checks.php:294
+msgid "Your homepage is usually the page people search for first, by your name."
+msgstr ""
+
+#: includes/scanner/class-checks.php:295
+msgid "Edit the homepage and turn on “Show in search results” in the SEO Fixer box."
+msgstr ""
+
+#: includes/scanner/class-checks.php:298
+msgid "robots.txt tells search engines which parts of your site they may visit. A rule blocking everything keeps your site out of Google."
+msgstr ""
+
+#: includes/scanner/class-checks.php:299
+msgid "Review the robots.txt rules in Settings → Sitemap & robots.txt and remove “Disallow: /”. If a robots.txt file exists on your server, ask your host to remove it."
+msgstr ""
+
+#: includes/scanner/class-checks.php:302
+msgid "While SEO Fixer is paused, your pages don’t get its titles, descriptions, sitemap tags or structured data."
+msgstr ""
+
+#: includes/scanner/class-checks.php:303
+msgid "If you’ve stopped using your other SEO plugin, set SEO Fixer to “Always on” in Settings → General."
+msgstr ""
+
+#: includes/scanner/class-checks.php:306
+msgid "Browsers mark http:// sites “Not secure”, which scares visitors away, and Google prefers secure pages."
+msgstr ""
+
+#: includes/scanner/class-checks.php:307
+msgid "Ask your host for a free SSL certificate (most offer Let’s Encrypt), then change both addresses in Settings → General to https://."
+msgstr ""
+
+#: includes/scanner/class-checks.php:310
+msgid "Files loaded over http:// on a secure page can be blocked by browsers, and the padlock disappears."
+msgstr ""
+
+#: includes/scanner/class-checks.php:311
+msgid "Change those addresses to https://. A search-and-replace plugin can fix old links in your content."
+msgstr ""
+
+#: includes/scanner/class-checks.php:314
+msgid "Addresses with words (example.com/sourdough-bread) tell people and Google what a page is about before they open it."
+msgstr ""
+
+#: includes/scanner/class-checks.php:315
+msgid "Go to Settings → Permalinks and choose “Post name”."
+msgstr ""
+
+#: includes/scanner/class-checks.php:318
+msgid "Your homepage description is often the first thing people read about you in Google."
+msgstr ""
+
+#: includes/scanner/class-checks.php:319
+msgid "Write one or two sentences about what you offer and who it’s for."
+msgstr ""
+
+#: includes/scanner/class-checks.php:322
+msgid "Two title tags confuse search engines about what the page is called; none means Google makes one up."
+msgstr ""
+
+#: includes/scanner/class-checks.php:323
+msgid "Check your theme or other plugins for their own title setting and turn it off, or ask your theme’s support."
+msgstr ""
+
+#: includes/scanner/class-checks.php:326
+msgid "Google uses your address and phone to show your business in local results and on Maps."
+msgstr ""
+
+#: includes/scanner/class-checks.php:327
+msgid "Fill in the missing details under Settings → Local business."
+msgstr ""
+
+#: includes/scanner/class-checks.php:330
+msgid "The main heading (H1) tells visitors and search engines what a page is about. One clear H1 per page is best."
+msgstr ""
+
+#: includes/scanner/class-checks.php:331
+msgid "This comes from your theme. Look for a heading setting in the theme options, or ask the theme’s support."
+msgstr ""
+
+#: includes/scanner/class-checks.php:334
+msgid "A sitemap lists all your pages, so search engines find new and updated pages quickly."
+msgstr ""
+
+#: includes/scanner/class-checks.php:335
+msgid "Turn the sitemap on in Settings → Sitemap & robots.txt."
+msgstr ""
+
+#: includes/scanner/class-checks.php:338
+msgid "Sending your sitemap to Google Search Console once means Google checks it regularly, and you can see which pages are in Google."
+msgstr ""
+
+#: includes/scanner/class-checks.php:339
+msgid "Follow the step-by-step guide in Settings → Sitemap & robots.txt, then click “I’ve done this”."
+msgstr ""
+
+#: includes/scanner/class-checks.php:342
+msgid "Google shows your site icon next to every result, which makes your pages easy to recognise."
+msgstr ""
+
+#: includes/scanner/class-checks.php:343
+msgid "Upload a square image of at least 512 × 512 pixels as your site icon."
+msgstr ""
+
+#: includes/scanner/class-checks.php:346
+msgid "Google can show your logo next to your business name in search results."
+msgstr ""
+
+#: includes/scanner/class-checks.php:347
+msgid "Choose your logo under Settings → Your brand."
+msgstr ""
+
+#: includes/scanner/class-checks.php:350
+msgid "People (and Google) are trying addresses that don’t exist — often old pages that moved."
+msgstr ""
+
+#: includes/scanner/class-checks.php:351
+msgid "Open the list of missing pages and redirect the ones that should lead somewhere."
+msgstr ""
+
+#: includes/scanner/class-checks.php:369
+msgid "Homepage shown in search results"
+msgstr ""
+
+#: includes/scanner/class-checks.php:373
+msgid "robots.txt lets Google in"
+msgstr ""
+
+#: includes/scanner/class-checks.php:377
+msgid "SEO Fixer is active"
+msgstr ""
+
+#: includes/scanner/class-checks.php:385
+msgid "No insecure files on secure pages"
+msgstr ""
+
+#: includes/scanner/class-checks.php:397
+msgid "One title per page"
+msgstr ""
+
+#: includes/scanner/class-checks.php:405
+msgid "One main heading per page"
+msgstr ""
+
+#: includes/scanner/class-checks.php:413
+msgid "Sitemap sent to Google"
+msgstr ""
+
+#: includes/scanner/class-checks.php:421
+msgid "Logo for search results"
+msgstr ""
+
+#: includes/scanner/class-checks.php:425
+msgid "Missing pages"
+msgstr ""
+
+#: includes/scanner/class-scanner.php:108
+msgid "Sorry, you are not allowed to scan this site."
+msgstr ""
+
+#: includes/scanner/class-scanner.php:173
+msgid "Unknown check."
+msgstr ""
+
+#: includes/scanner/class-scanner.php:706
+msgid "Checking your site settings and homepage…"
+msgstr ""
+
+#. translators: 1: pages checked so far, 2: total pages.
+#: includes/scanner/class-scanner.php:711
+#, php-format
+msgid "Checking pages: %1$s of %2$s…"
+msgstr ""
+
+#: includes/scanner/class-scanner.php:715
+msgid "Comparing pages and adding up your score…"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:158
+msgid "Search engines are allowed to show your site."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:158
+msgid "Your whole site is set to “Discourage search engines”, so Google may not show it at all."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:172
+#: includes/scanner/class-site-checks.php:177
+msgid "Your homepage can appear in search results."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:177
+msgid "Your homepage is set to “hide from search results”."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:195
+msgid "Your robots.txt blocks Google from your whole site."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:195
+msgid "robots.txt lets search engines visit your pages."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:197
+msgid "Review robots.txt"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:210
+msgid "SEO Fixer is adding its titles and tags to your pages."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:210
+msgid "SEO Fixer is paused, so your pages don’t get its titles, descriptions and schema. The results below show what you’d get once it’s on."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:225
+msgid "Your site uses a secure connection."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:225
+msgid "Your site address starts with http://. Browsers mark it “Not secure” and Google prefers secure pages. Ask your host for a free SSL certificate."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:242
+msgid "We couldn’t load your homepage to check for insecure files."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:254
+msgid "All files on your pages load securely."
+msgstr ""
+
+#. translators: 1: number of files, 2: first file address.
+#: includes/scanner/class-site-checks.php:256
+#, php-format
+msgid "%1$d file loads over an insecure connection (for example %2$s), so browsers may block it."
+msgid_plural "%1$d files load over an insecure connection (for example %2$s), so browsers may block them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-site-checks.php:269
+msgid "Your page addresses contain words."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:269
+msgid "Your page addresses look like “?p=123”. Choose “Post name” so they describe the page."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:286
+msgid "Your homepage has a description."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:286
+msgid "Your homepage has no description, so Google picks some text itself. This is often the first thing people read about you."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:288
+msgid "Write a description"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:300
+msgid "We couldn’t load your homepage to check its title."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:308
+msgid "A page has no title tag. Your theme may not support titles properly."
+msgstr ""
+
+#. translators: %s: page address.
+#: includes/scanner/class-site-checks.php:310
+#, php-format
+msgid "A page has more than one title tag (%s). Your theme or another plugin adds its own."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:314
+msgid "Each page has exactly one title."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:325
+msgid "We couldn’t load your pages to check their headings."
+msgstr ""
+
+#. translators: %s: page address.
+#: includes/scanner/class-site-checks.php:331
+#, php-format
+msgid "Your theme shows no main heading (H1) on %s. Search engines use it to understand what a page is about."
+msgstr ""
+
+#. translators: 1: number of headings, 2: page address.
+#: includes/scanner/class-site-checks.php:335
+#, php-format
+msgid "%2$s has %1$d main headings (H1). One clear main heading per page is best."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:338
+msgid "Your pages have one main heading each."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:352
+msgid "street"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:353
+msgid "city"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:354
+msgid "country"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:355
+msgid "phone"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:364
+msgid "Your business address and phone are complete."
+msgstr ""
+
+#. translators: %s: list of missing details, e.g. "street and phone".
+#: includes/scanner/class-site-checks.php:366
+#, php-format
+msgid "Your local business details are missing the %s, which Google needs for local results."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:368
+msgid "Add details"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:381
+msgid "Your XML sitemap is ready."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:381
+msgid "SEO Fixer’s sitemap is off, so search engines may find new pages more slowly."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:399
+msgid "You’ve sent your sitemap to Google."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:399
+msgid "Send your sitemap to Google Search Console once, so Google finds new pages faster. Mark this done when you have."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:401
+msgid "Show me how"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:414
+msgid "Your site icon appears next to your pages in Google."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:414
+msgid "No site icon yet, so Google shows a plain globe next to your pages."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:432
+msgid "Your logo is set for search results."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:432
+msgid "No logo set, so Google can’t show it with your business."
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:434
+msgid "Add your logo"
+msgstr ""
+
+#: includes/scanner/class-site-checks.php:451
+msgid "No missing pages have been requested recently."
+msgstr ""
+
+#. translators: %d: number of addresses.
+#: includes/scanner/class-site-checks.php:453
+#, php-format
+msgid "%d address that doesn’t exist was requested recently. Redirect it if it should lead somewhere."
+msgid_plural "%d addresses that don’t exist were requested recently. Redirect the ones that should lead somewhere."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/scanner/class-site-checks.php:455
+msgid "Review missing pages"
+msgstr ""
+
+#: includes/schema/class-breadcrumbs.php:54
+#: assets/blocks/breadcrumbs.js:18
+msgid "Shows where the visitor is, for example Home › Bread › Sourdough."
+msgstr ""
+
+#: includes/schema/class-breadcrumbs.php:245
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/schema/class-breadcrumbs.php:271
+msgid "Category"
+msgstr ""
+
+#: includes/schema/class-breadcrumbs.php:272
+msgid "Current page"
+msgstr ""
+
+#: includes/schema/class-graph.php:47
+msgid "Design"
+msgstr ""
+
+#: includes/schema/class-graph.php:48
+msgid "Developer tools"
+msgstr ""
+
+#: includes/schema/class-graph.php:49
+msgid "Education"
+msgstr ""
+
+#: includes/schema/class-graph.php:50
+msgid "Entertainment"
+msgstr ""
+
+#: includes/schema/class-graph.php:51
+msgid "Finance"
+msgstr ""
+
+#: includes/schema/class-graph.php:52
+msgid "Game"
+msgstr ""
+
+#: includes/schema/class-graph.php:53
+msgid "Health & fitness"
+msgstr ""
+
+#: includes/schema/class-graph.php:54
+msgid "Lifestyle"
+msgstr ""
+
+#: includes/schema/class-graph.php:55
+msgid "Photo, video & music"
+msgstr ""
+
+#: includes/schema/class-graph.php:56
+msgid "Security"
+msgstr ""
+
+#: includes/schema/class-graph.php:57
+msgid "Shopping"
+msgstr ""
+
+#: includes/schema/class-graph.php:59
+msgid "Travel"
+msgstr ""
+
+#: includes/schema/class-graph.php:60
+msgid "Utilities"
+msgstr ""
+
+#: assets/admin/js/admin.js:67
+#: assets/admin/js/admin.js:262
+msgid "Empty"
+msgstr ""
+
+#: assets/admin/js/admin.js:70
+#: assets/admin/js/admin.js:268
+msgid "Too short"
+msgstr ""
+
+#: assets/admin/js/admin.js:73
+msgid "Too long"
+msgstr ""
+
+#: assets/admin/js/admin.js:76
+#: assets/admin/js/admin.js:258
+msgid "Good length"
+msgstr ""
+
+#. translators: 1: status such as "Good length", 2: characters used, 3: recommended maximum.
+#: assets/admin/js/admin.js:83
+#, js-format
+msgid "%1$s · %2$d / %3$d"
+msgstr ""
+
+#: assets/admin/js/admin.js:107
+msgid "You have unsaved changes"
+msgstr ""
+
+#: assets/admin/js/admin.js:159
+msgid "Choose an image"
+msgstr ""
+
+#: assets/admin/js/admin.js:160
+msgid "Use this image"
+msgstr ""
+
+#: assets/admin/js/admin.js:262
+msgid "Empty — Google will pick text from the page"
+msgstr ""
+
+#: assets/admin/js/admin.js:265
+msgid "Too long — Google will cut it off"
+msgstr ""
+
+#: assets/admin/js/admin.js:271
+msgid "Could be longer"
+msgstr ""
+
+#. translators: 1: status such as "Good length", 2: number of characters.
+#: assets/admin/js/admin.js:278
+#, js-format
+msgid "%1$s · %2$d characters"
+msgstr ""
+
+#: assets/admin/js/admin.js:465
+msgid "The scan stopped unexpectedly."
+msgstr ""
+
+#: assets/admin/js/admin.js:493
+msgid "Done! Loading your results…"
+msgstr ""
+
+#: assets/admin/js/admin.js:504
+msgid "The scan will carry on in the background — reload this page in a few minutes."
+msgstr ""
+
+#: assets/admin/js/admin.js:515
+msgid "Starting the scan…"
+msgstr ""
+
+#: assets/admin/js/admin.js:587
+#: assets/admin/js/admin.js:636
+msgid "Something went wrong."
+msgstr ""
+
+#. translators: %s: number of changes made so far.
+#: assets/admin/js/admin.js:596
+#, js-format
+msgid "Fixing… %s changes so far"
+msgstr ""
+
+#: assets/admin/js/admin.js:604
+msgid "The changes made so far are kept and can be undone under Changes."
+msgstr ""
+
+#. translators: %d: number of characters.
+#: assets/admin/js/admin.js:684
+#: assets/editor/sidebar.js:314
+#, js-format
+msgid "%d characters"
+msgstr ""
+
+#: assets/admin/js/admin.js:684
+msgid "Google may cut this off"
+msgstr ""
+
+#: assets/admin/js/admin.js:799
+msgid "Copied!"
+msgstr ""
+
+#: assets/editor/sidebar.js:158
+msgid "The check could not run."
+msgstr ""
+
+#: assets/editor/sidebar.js:179
+msgid "Checking…"
+msgstr ""
+
+#. translators: %d: score from 0 to 100.
+#: assets/editor/sidebar.js:186
+#, js-format
+msgid "SEO score: %d out of 100"
+msgstr ""
+
+#: assets/editor/sidebar.js:196
+msgid "Includes changes you haven’t saved yet."
+msgstr ""
+
+#: assets/editor/sidebar.js:196
+msgid "Your score once this is published."
+msgstr ""
+
+#: assets/editor/sidebar.js:198
+msgid "Updating…"
+msgstr ""
+
+#: assets/editor/sidebar.js:234
+msgid "Use this description"
+msgstr ""
+
+#: assets/editor/sidebar.js:284
+msgid "Some images are inside Custom HTML or Classic blocks. Add their alt text in those blocks."
+msgstr ""
+
+#. translators: %d: number of images.
+#: assets/editor/sidebar.js:290
+#, js-format
+msgid "Add alt text to %d image"
+msgid_plural "Add alt text to %d images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/editor/sidebar.js:294
+msgid "You can change any of them by clicking the image."
+msgstr ""
+
+#: assets/editor/sidebar.js:352
+#: assets/editor/sidebar.js:438
+msgid "SEO score"
+msgstr ""
+
+#. translators: %d: number of problems.
+#: assets/editor/sidebar.js:358
+#, js-format
+msgid "%d thing to improve"
+msgid_plural "%d things to improve"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/editor/sidebar.js:359
+msgid "Checklist"
+msgstr ""
+
+#: assets/editor/sidebar.js:382
+msgid "No description: Google will pick some text from the page."
+msgstr ""
+
+#: assets/editor/sidebar.js:383
+msgid "Hidden from search results (see the SEO Fixer box below the editor)."
+msgstr ""
+
+#: assets/editor/sidebar.js:388
+msgid "Leave empty to use the automatic title. "
+msgstr ""
+
+#: assets/editor/sidebar.js:396
+msgid "Leave empty to use the first sentences of your content. "
+msgstr ""
+
+#: assets/editor/sidebar.js:423
+msgid "SEO Health for the whole site"
+msgstr ""
